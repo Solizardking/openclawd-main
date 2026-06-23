@@ -10,11 +10,11 @@
     "tail": "wrangler tail"
   },
   "dependencies": {
-    "hono": "^4.4.0"
+    "hono": "^4.12.25"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240529.0",
     "typescript": "^5.5.0",
-    "wrangler": "^3.60.0"
+    "wrangler": "^4.104.0"
   }
 }
