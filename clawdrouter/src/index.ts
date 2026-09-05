@@ -77,7 +77,7 @@ function getDefaultConfig(): ClawdRouterConfig {
       holder: parseFloat(process.env['CLAWDROUTER_HOLDER_THRESHOLD'] ?? '1000'),
     },
     openRouterApiKey,
-    openRouterSiteTitle: process.env['CLAWDROUTER_OPENROUTER_SITE_TITLE'] ?? 'ClawdRouter',
+    openRouterSiteTitle: process.env['CLAWDROUTER_OPENROUTER_SITE_TITLE'] ?? 'solanaclawd',
     openRouterSiteUrl: process.env['CLAWDROUTER_OPENROUTER_SITE_URL'] ?? 'https://solanaclawd.com',
     openRouterCategories: (process.env['CLAWDROUTER_OPENROUTER_CATEGORIES'] ?? 'cli-agent,cloud-agent').split(',').map(s => s.trim()),
     openRouterEnabled,
