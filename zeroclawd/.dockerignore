@@ -1,0 +1,325 @@
+# Keep the Fly/Depot upload small. These trees are not part of the
+# Go CLI + web console image (see Dockerfile).
+.git
+**/.git
+.agents
+agent
+docs
+ooda
+e2b
+cloudflare
+automaton-main
+**/.DS_Store
+
+# flyctl launch added from .agents/skills/golang-project-layout/assets/.gitignore
+# Binaries for programs and plugins
+.agents/skills/golang-project-layout/assets/**/*.exe
+.agents/skills/golang-project-layout/assets/**/*.exe~
+.agents/skills/golang-project-layout/assets/**/*.dll
+.agents/skills/golang-project-layout/assets/**/*.so
+.agents/skills/golang-project-layout/assets/**/*.dylib
+.agents/skills/golang-project-layout/assets/**/bin
+.agents/skills/golang-project-layout/assets/**/dist
+
+# Test binary, built with `go test -c`
+.agents/skills/golang-project-layout/assets/**/*.test
+
+# Output of the go coverage tool
+.agents/skills/golang-project-layout/assets/**/*.out
+.agents/skills/golang-project-layout/assets/**/coverage.out
+.agents/skills/golang-project-layout/assets/**/coverage.html
+
+# Dependency directories
+.agents/skills/golang-project-layout/assets/**/vendor
+
+# Go workspace file
+.agents/skills/golang-project-layout/assets/**/go.work.sum
+
+# IDE specific files
+.agents/skills/golang-project-layout/assets/**/.idea
+.agents/skills/golang-project-layout/assets/**/.vscode
+.agents/skills/golang-project-layout/assets/**/*.swp
+.agents/skills/golang-project-layout/assets/**/*.swo
+.agents/skills/golang-project-layout/assets/**/*~
+.agents/skills/golang-project-layout/assets/**/.DS_Store
+
+# Environment files
+.agents/skills/golang-project-layout/assets/**/.env
+.agents/skills/golang-project-layout/assets/**/.env.local
+.agents/skills/golang-project-layout/assets/**/.env.*.local
+
+# Build artifacts
+.agents/skills/golang-project-layout/assets/tmp
+
+# Air hot reload
+.agents/skills/golang-project-layout/assets/**/tmp
+
+# flyctl launch added from .agents/skills/qedgen/crates/qedgen/templates/.gitignore
+.agents/skills/qedgen/crates/qedgen/templates/**/.lake
+.agents/skills/qedgen/crates/qedgen/templates/**/lake-packages
+.agents/skills/qedgen/crates/qedgen/templates/**/build
+.agents/skills/qedgen/crates/qedgen/templates/**/*.olean
+.agents/skills/qedgen/crates/qedgen/templates/**/*.ilean
+.agents/skills/qedgen/crates/qedgen/templates/**/*.c
+.agents/skills/qedgen/crates/qedgen/templates/**/*.o
+.agents/skills/qedgen/crates/qedgen/templates/**/*.so
+.agents/skills/qedgen/crates/qedgen/templates/**/*.dylib
+.agents/skills/qedgen/crates/qedgen/templates/**/*.dll
+
+# flyctl launch added from .gitignore
+# ============================================================================
+# SECRETS — NEVER COMMIT THESE. NO EXCEPTIONS. NOT EVEN IN PRIVATE REPOS.
+# ============================================================================
+
+# Environment files (only EXAMPLE/TEMPLATE/SAMPLE files are safe to commit)
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+!**/.env.sample
+**/config.env
+
+# Solana keypairs — any format, any name
+**/wallet.json
+**/*-wallet.json
+**/keypair.json
+**/*-keypair.json
+**/*_keypair.json
+**/keypair*.json
+**/solana-keygen.json
+**/phantom-export.json
+**/id.json
+**/agent-wallet.json
+
+# Private keys / certs / wallets
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.keystore
+**/*.jks
+**/*.asc
+**/*.gpg
+**/id_rsa
+**/id_rsa.*
+**/id_ed25519
+**/id_ed25519.*
+**/id_ecdsa
+**/id_ecdsa.*
+**/*.ppk
+
+# Service account / cloud credentials
+**/service-account*.json
+**/gcp-credentials*.json
+**/google-credentials*.json
+**/firebase-adminsdk*.json
+**/aws-credentials
+**/credentials.json
+**/cdp_private_key.pem
+**/cdp_*.pem
+**/google-services.json
+
+# API keys in files
+**/*_api_key.txt
+**/*_secret.txt
+**/*-secret.json
+**/*.secret.json
+**/auth-token*.json
+**/access-token*.json
+**/bearer-token*.json
+**/refresh-token*.json
+**/*-apikey.json
+**/*-api-key.json
+**/*-private-key.json
+**/*-privatekey.json
+**/helius*.json
+**/rpc-config*.json
+**/clawd-key*.json
+**/agent-key*.json
+
+# Agent runtime state (may contain derived secrets or API tokens)
+**/.vulcan
+**/vulcan-runs
+**/paper-state.json
+**/paper-balance.json
+**/.paper
+**/imperial-session*.json
+**/.imperial
+**/perps-session*.json
+**/.perps
+**/.agent-sessions
+**/*.session.json
+**/agent-memory*.json
+**/session-state*.json
+**/.clawdbot
+**/sessions
+
+# Database / local storage
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.db-journal
+**/*.db-wal
+**/*.db-shm
+**/.convex
+
+# Raw key dumps
+**/*.b58
+**/*.b64.key
+
+# Production deployment configs with secrets
+**/fly.toml.local
+**/*.sentryclirc
+**/.vercel
+
+# ============================================================================
+# BUILD / DEPENDENCIES / NOISE
+# ============================================================================
+
+# Local generated dependencies and build outputs.
+**/node_modules
+**/build
+**/.cache
+**/dist
+**/*.tsbuildinfo
+**/target
+**/.turbo
+**/.next
+**/coverage
+**/out
+
+# Rebuilt module-root Mach-O binaries (prefer make build → build/)
+clawdbot
+backend
+
+# OS/editor noise.
+**/.DS_Store
+**/**/.DS_Store
+**/.idea
+**/.vscode
+**/*.swp
+**/*~
+
+# Local pump recovery / key discovery dumps (never public)
+**/pumprecovery-main/keys
+**/pumprecovery-main/solana-config
+**/**/discovered
+
+# flyctl launch added from agent/skills/golang-project-layout/assets/.gitignore
+# Binaries for programs and plugins
+agent/skills/golang-project-layout/assets/**/*.exe
+agent/skills/golang-project-layout/assets/**/*.exe~
+agent/skills/golang-project-layout/assets/**/*.dll
+agent/skills/golang-project-layout/assets/**/*.so
+agent/skills/golang-project-layout/assets/**/*.dylib
+agent/skills/golang-project-layout/assets/**/bin
+agent/skills/golang-project-layout/assets/**/dist
+
+# Test binary, built with `go test -c`
+agent/skills/golang-project-layout/assets/**/*.test
+
+# Output of the go coverage tool
+agent/skills/golang-project-layout/assets/**/*.out
+agent/skills/golang-project-layout/assets/**/coverage.out
+agent/skills/golang-project-layout/assets/**/coverage.html
+
+# Dependency directories
+agent/skills/golang-project-layout/assets/**/vendor
+
+# Go workspace file
+agent/skills/golang-project-layout/assets/**/go.work.sum
+
+# IDE specific files
+agent/skills/golang-project-layout/assets/**/.idea
+agent/skills/golang-project-layout/assets/**/.vscode
+agent/skills/golang-project-layout/assets/**/*.swp
+agent/skills/golang-project-layout/assets/**/*.swo
+agent/skills/golang-project-layout/assets/**/*~
+agent/skills/golang-project-layout/assets/**/.DS_Store
+
+# Environment files
+agent/skills/golang-project-layout/assets/**/.env
+agent/skills/golang-project-layout/assets/**/.env.local
+agent/skills/golang-project-layout/assets/**/.env.*.local
+
+# Build artifacts
+agent/skills/golang-project-layout/assets/tmp
+
+# Air hot reload
+agent/skills/golang-project-layout/assets/**/tmp
+
+# flyctl launch added from agent/skills/qedgen/crates/qedgen/templates/.gitignore
+agent/skills/qedgen/crates/qedgen/templates/**/.lake
+agent/skills/qedgen/crates/qedgen/templates/**/lake-packages
+agent/skills/qedgen/crates/qedgen/templates/**/build
+agent/skills/qedgen/crates/qedgen/templates/**/*.olean
+agent/skills/qedgen/crates/qedgen/templates/**/*.ilean
+agent/skills/qedgen/crates/qedgen/templates/**/*.c
+agent/skills/qedgen/crates/qedgen/templates/**/*.o
+agent/skills/qedgen/crates/qedgen/templates/**/*.so
+agent/skills/qedgen/crates/qedgen/templates/**/*.dylib
+agent/skills/qedgen/crates/qedgen/templates/**/*.dll
+
+# flyctl launch added from automaton-main/.gitignore
+automaton-main/**/node_modules
+automaton-main/**/dist
+automaton-main/**/*.db
+automaton-main/**/*.db-journal
+automaton-main/**/*.db-wal
+automaton-main/**/*.db-shm
+automaton-main/**/.env
+automaton-main/**/.DS_Store
+automaton-main/**/*.tgz
+automaton-main/**/.automaton/wallet.json
+automaton-main/**/.automaton/state.db
+
+# flyctl launch added from docs/PiedPiper-master/Compression/Huffman/Static/.gitignore
+docs/PiedPiper-master/Compression/Huffman/Static/**/random*.txt
+docs/PiedPiper-master/Compression/Huffman/Static/**/compress
+docs/PiedPiper-master/Compression/Huffman/Static/**/decompress
+docs/PiedPiper-master/Compression/Huffman/Static/**/output
+docs/PiedPiper-master/Compression/Huffman/Static/**/compress
+docs/PiedPiper-master/Compression/Huffman/Static/**/temp*
+docs/PiedPiper-master/Compression/Huffman/Static/**/output*.txt
+docs/PiedPiper-master/Compression/Huffman/Static/**/*.o
+
+# flyctl launch added from docs/PiedPiper-master/ForestFire_Simulation/.gitignore
+docs/PiedPiper-master/ForestFire_Simulation/**/libraries
+docs/PiedPiper-master/ForestFire_Simulation/**/node_modules
+
+# flyctl launch added from docs/PiedPiper-master/GameOfLife/.gitignore
+docs/PiedPiper-master/GameOfLife/**/libraries
+docs/PiedPiper-master/GameOfLife/**/node_modules
+
+# flyctl launch added from skills/web3-dev/.gitignore
+skills/web3-dev/**/.build
+
+# flyctl launch added from zk-primitives/.gitignore
+zk-primitives/**/.env
+zk-primitives/**/.env.local
+zk-primitives/**/agent/.env
+zk-primitives/**/agent/.env.local
+zk-primitives/**/client/.env
+zk-primitives/**/client/.env.local
+
+zk-primitives/**/node_modules
+zk-primitives/**/agent/node_modules
+zk-primitives/**/client/node_modules
+zk-primitives/**/dist
+zk-primitives/**/agent/dist
+zk-primitives/**/client/dist
+zk-primitives/**/.turbo
+
+zk-primitives/**/target
+zk-primitives/**/programs/*/target
+zk-primitives/**/.anchor
+zk-primitives/**/test-ledger
+
+zk-primitives/**/*.keypair.json
+zk-primitives/**/*.secret.json
+zk-primitives/**/*.proof.local.json
+zk-primitives/**/*.vk.local.json
+
+# Vite output is produced in the Dockerfile frontend stage. Do not ship
+# a host dist/ (stale hashes) and do not fail //go:embed all:dist when
+# the host has not run `npm run build`.

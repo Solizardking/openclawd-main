@@ -1,0 +1,137 @@
+# ============================================================================
+# SECRETS — NEVER COMMIT THESE. NO EXCEPTIONS. NOT EVEN IN PRIVATE REPOS.
+# ============================================================================
+
+# Environment files (only EXAMPLE/TEMPLATE/SAMPLE files are safe to commit)
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+config.env
+
+# Solana keypairs — any format, any name
+wallet.json
+*-wallet.json
+keypair.json
+*-keypair.json
+*_keypair.json
+keypair*.json
+solana-keygen.json
+phantom-export.json
+id.json
+agent-wallet.json
+
+# Private keys / certs / wallets
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.asc
+*.gpg
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+id_ecdsa
+id_ecdsa.*
+*.ppk
+
+# Service account / cloud credentials
+service-account*.json
+gcp-credentials*.json
+google-credentials*.json
+firebase-adminsdk*.json
+aws-credentials
+credentials.json
+cdp_private_key.pem
+cdp_*.pem
+google-services.json
+
+# API keys in files
+*_api_key.txt
+*_secret.txt
+*-secret.json
+*.secret.json
+auth-token*.json
+access-token*.json
+bearer-token*.json
+refresh-token*.json
+*-apikey.json
+*-api-key.json
+*-private-key.json
+*-privatekey.json
+helius*.json
+rpc-config*.json
+clawd-key*.json
+agent-key*.json
+
+# Agent runtime state (may contain derived secrets or API tokens)
+.vulcan/
+vulcan-runs/
+paper-state.json
+paper-balance.json
+.paper/
+imperial-session*.json
+.imperial/
+perps-session*.json
+.perps/
+.agent-sessions/
+*.session.json
+agent-memory*.json
+session-state*.json
+.clawdbot/
+sessions/
+
+# Database / local storage
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.convex/
+
+# Raw key dumps
+*.b58
+*.b64.key
+
+# Production deployment configs with secrets
+fly.toml.local
+*.sentryclirc
+.vercel/
+
+# ============================================================================
+# BUILD / DEPENDENCIES / NOISE
+# ============================================================================
+
+# Local generated dependencies and build outputs.
+node_modules/
+build/
+.cache/
+dist/
+*.tsbuildinfo
+target/
+.turbo/
+.next/
+coverage/
+out/
+
+# Rebuilt module-root Mach-O binaries (prefer make build → build/)
+/clawdbot
+/backend
+
+# OS/editor noise.
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local pump recovery / key discovery dumps (never public)
+pumprecovery-main/keys/
+pumprecovery-main/solana-config/
+**/discovered/

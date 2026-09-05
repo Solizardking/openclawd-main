@@ -1,0 +1,7 @@
+{
+  "name": "Whale Tracker",
+  "description": "Monitor and interpret large wallet movements on Solana",
+  "author": "clawpump",
+  "tags": ["analysis", "trading", "defi"],
+  "version": "1.0.0"
+}

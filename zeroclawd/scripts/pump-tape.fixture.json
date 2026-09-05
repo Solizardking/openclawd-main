@@ -1,0 +1,40 @@
+[
+  {
+    "type": "status",
+    "connected": true,
+    "uptime": 8452440,
+    "totalLaunches": 2937323,
+    "githubLaunches": 33910,
+    "totalClaims": 0,
+    "clients": 6
+  },
+  {
+    "type": "token-launch",
+    "signature": "5LaunchSigFixture1111111111111111111111111111111111111111111111111",
+    "time": 1710000000,
+    "name": "PepeFrog",
+    "symbol": "FROG",
+    "metadataUri": "https://example.com/frog.json",
+    "mint": "7xK9abcMintPumpFun111111111111111111111pump",
+    "creator": "FrogCreator11111111111111111111111111111111",
+    "isV2": true,
+    "hasGithub": true,
+    "githubUrls": ["https://github.com/example/pepefrog"],
+    "imageUri": "https://example.com/frog.png",
+    "description": "ribbit",
+    "marketCapSol": 12.4,
+    "website": "https://pepefrog.example",
+    "twitter": "https://x.com/pepefrog",
+    "telegram": "https://t.me/pepefrog"
+  },
+  {
+    "type": "token-enriched",
+    "mint": "9EnrichedMintPumpFun2222222222222222222pump",
+    "name": "CatWifHat",
+    "symbol": "CAT",
+    "description": "hat",
+    "marketCapSol": 0.8,
+    "hasGithub": false,
+    "signature": "5EnrichSigFixture2222222222222222222222222222222222222222222222222"
+  }
+]

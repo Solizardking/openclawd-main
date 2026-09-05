@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Clawd ZK Primitives — animated hero</title>
+  <desc id="desc">Animated zero-knowledge hero for Clawd ZK Primitives: nullifiers, Groth16 proofs, and Light Protocol compressed state on Solana.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05010f"/>
+      <stop offset="0.45" stop-color="#0a0520"/>
+      <stop offset="1" stop-color="#02060f"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.45" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+      <animate attributeName="x1" values="0;0.35;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;1.35;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#05010f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.45  0 0 0 0 1  0 0 0 0.9 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="420" rx="28"/>
+    </clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .rain { fill: #a78bfa; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px; }
+      .label { font-family: ui-monospace, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+
+    <!-- soft pulsing orbs -->
+    <circle cx="980" cy="120" r="110" fill="url(#orb)" opacity="0.85">
+      <animate attributeName="r" values="100;125;100" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0.9;0.55" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="300" r="90" fill="url(#orb)" opacity="0.5">
+      <animate attributeName="r" values="80;105;80" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- zk rain columns -->
+    <g class="rain" opacity="0.5">
+      <g>
+        <text x="28" y="0">null</text><text x="28" y="18">0x1a</text><text x="28" y="36">π</text><text x="28" y="54">zk</text><text x="28" y="72">01</text><text x="28" y="90">Σ</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -130" to="0 460" dur="3.6s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="92" y="0">G16</text><text x="92" y="18">10</text><text x="92" y="36">bn128</text><text x="92" y="54">0x9f</text><text x="92" y="72">proof</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -170" to="0 460" dur="4.3s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="170" y="0">PDA</text><text x="170" y="18">comp</text><text x="170" y="36">01</text><text x="170" y="54">tree</text><text x="170" y="72">V2</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -110" to="0 460" dur="3.9s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="980" y="0">Light</text><text x="980" y="18">0xπ</text><text x="980" y="36">10</text><text x="980" y="54">CPI</text><text x="980" y="72">zk</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 460" dur="4.0s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="1060" y="0">SOL</text><text x="1060" y="18">01</text><text x="1060" y="36">Φ</text><text x="1060" y="54">0xee</text><text x="1060" y="72">11</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -190" to="0 460" dur="4.6s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="1135" y="0">hash</text><text x="1135" y="18">32B</text><text x="1135" y="36">once</text><text x="1135" y="54">01</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -120" to="0 460" dur="3.4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- circuit lattice / merkle-ish skeleton -->
+    <g stroke="#7c3aed" stroke-width="1.2" opacity="0.28" fill="none">
+      <path d="M820 70 L900 120 L980 70 L1060 120 L1140 70">
+        <animate attributeName="opacity" values="0.15;0.45;0.15" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M860 150 L940 200 L1020 150 L1100 200">
+        <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M900 230 L980 280 L1060 230">
+        <animate attributeName="opacity" values="0.25;0.55;0.25" dur="4.4s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="900" cy="120" r="4" fill="#22d3ee" stroke="none">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="980" cy="70" r="4" fill="#a78bfa" stroke="none">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="120" r="4" fill="#34d399" stroke="none">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="980" cy="280" r="5" fill="#22d3ee" stroke="none">
+        <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect x="20" y="20" width="1160" height="380" rx="20" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.22"/>
+
+    <g filter="url(#glow)">
+      <text x="64" y="108" class="mono" font-size="18" fill="#67e8f9" opacity="0.95">$ clawdbot catalog zk · nullifier · groth16 · light</text>
+      <text x="62" y="188" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="1.5" fill="url(#word)">
+        CLAWD ZK
+        <animate attributeName="opacity" values="1;0.86;1;0.94;1" dur="2.8s" repeatCount="indefinite"/>
+      </text>
+      <text x="66" y="236" class="mono" font-size="22" fill="#c4b5fd">Nullifiers · Groth16 · Light Protocol compressed state</text>
+    </g>
+
+    <!-- floating primitive chips -->
+    <g class="label" font-size="15">
+      <g>
+        <rect x="66" y="278" width="168" height="36" rx="10" fill="#1e1035" stroke="#a78bfa" stroke-width="1.2" opacity="0.95"/>
+        <text x="84" y="301" fill="#e9d5ff">nullifier once</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="2.6s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="250" y="278" width="176" height="36" rx="10" fill="#0c2230" stroke="#22d3ee" stroke-width="1.2" opacity="0.95"/>
+        <text x="268" y="301" fill="#a5f3fc">~200k CU prove</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="3.1s" begin="0.4s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="442" y="278" width="210" height="36" rx="10" fill="#0c261c" stroke="#34d399" stroke-width="1.2" opacity="0.95"/>
+        <text x="460" y="301" fill="#bbf7d0">15k lamports / PDA</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="2.9s" begin="0.8s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <g class="mono" font-size="15" fill="#99f6e4" opacity="0.88">
+      <text x="66" y="356">program: clawd-zk</text>
+      <text x="280" y="356">sdk: @clawd/zk-client</text>
+      <text x="520" y="356">agent: clawd-zk-agent</text>
+      <text x="760" y="356">chain: solana · light v2</text>
+    </g>
+
+    <!-- scanline sweep -->
+    <rect x="20" y="0" width="1160" height="88" fill="url(#scan)">
+      <animate attributeName="y" from="-90" to="420" dur="3.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner brackets -->
+    <g stroke="#22d3ee" stroke-width="2" opacity="0.75" fill="none">
+      <path d="M40 40 L40 66 M40 40 L66 40"/>
+      <path d="M1160 40 L1160 66 M1160 40 L1134 40"/>
+      <path d="M40 380 L40 354 M40 380 L66 380"/>
+      <path d="M1160 380 L1160 354 M1160 380 L1134 380"/>
+      <animate attributeName="opacity" values="0.45;0.9;0.45" dur="2.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- live pulse -->
+    <g>
+      <circle cx="1120" cy="360" r="5" fill="#34d399">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1030" y="365" class="mono" font-size="13" fill="#6ee7b7">proof live</text>
+    </g>
+  </g>
+</svg>

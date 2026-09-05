@@ -1,0 +1,38 @@
+name = "clawdbot-install"
+main = "cloudflare/install-worker.js"
+compatibility_date = "2026-07-05"
+workers_dev = true
+
+[vars]
+UPSTREAM_INSTALL_URL = "https://raw.githubusercontent.com/Solizardking/Zero-Bruh/main/install.sh"
+DEFAULT_COMPLETE = "1"
+DEFAULT_ZK_PRIMITIVES_DIR = "$HOME/.clawdbot/src/zk-primitives"
+PROJECT_REPO = "https://github.com/Solizardking/Zero-Bruh"
+ECOSYSTEM_HUB = "https://github.com/solizardking/solana-clawd"
+X402_GATEWAY = "https://zk.x402.wtf"
+TERMINAL_URL = "https://cheshireterminal.ai"
+ZERO_CLAWD_URL = "https://cheshireterminal.ai/zeroclawd"
+AGENT_HUB_URL = "https://cheshireterminal.ai/agents"
+AGENT_FORGE_URL = "https://cheshireterminal.ai/agents/forge"
+AGENTS_NPM_URL = "https://www.npmjs.com/package/cheshire-terminal-agents"
+AGENTS_REPO_URL = "https://github.com/Solizardking/Cheshire-Terminal-Agents"
+SKILLHUB_REPO_URL = "https://github.com/Solizardking/skillhub-main"
+ZK_AGENT_PACKAGE = "@clawd/zk-shark-agent"
+ZK_CLIENT_PACKAGE = "@clawd/zk-client"
+ZK_PROGRAM_ID = "CLAWDzk11111111111111111111111111111111111"
+
+[[routes]]
+pattern = "install.onchainai.fund"
+custom_domain = true
+
+[[routes]]
+pattern = "install.x402.wtf/*"
+zone_name = "x402.wtf"
+
+[[routes]]
+pattern = "x402.wtf/clawdbot*"
+zone_name = "x402.wtf"
+
+[[routes]]
+pattern = "zk.x402.wtf/clawdbot*"
+zone_name = "x402.wtf"

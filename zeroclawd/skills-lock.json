@@ -1,0 +1,3683 @@
+{
+  "version": 1,
+  "skills": {
+    "1password": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/1password/SKILL.md",
+      "computedHash": "10f42a30af4624e41b63a91f50c5eedb25d7954be084896375e38abaf5358a3c"
+    },
+    "accelerated-computing-cudf": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/accelerated-computing-cudf/SKILL.md",
+      "computedHash": "d373532ba6e389d8cee27e37500c56cae0c413e15d9527bdaa412ee6be2778c5"
+    },
+    "agent-browser": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "computedHash": "cc47ac19d45898d2ac70d2ae0545919dd1781612690d064f2d30e4fd669ea7a8"
+    },
+    "agent-desktop": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-desktop/SKILL.md",
+      "computedHash": "d234deda5d17b7f8ae88b996e71d42ba11e515a5d6c1b722f306a1ef2177c7dd"
+    },
+    "agent-orchestration-handoff": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/handoff/SKILL.md",
+      "computedHash": "c8af9d60043a34768c9f8526ab6c12d9ba00b46ddacb5361b7dc4ab97cd1036b"
+    },
+    "agent-platform-alert-configuration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-alert-configuration/SKILL.md",
+      "computedHash": "0a6806b67c53f32462cc5984be9fbdcdc48ad3a7bb85d09b52aa8220f6e39bfd"
+    },
+    "agent-platform-deploy": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-deploy/SKILL.md",
+      "computedHash": "67a7f2af13732d6dc97cba08101483fcf224bdb140673cbae47cfba231032cc6"
+    },
+    "agent-platform-endpoint-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-endpoint-management/SKILL.md",
+      "computedHash": "bcb6c91c2ae6e4b1bace7f2dfa18e70848caba3a685de59f2a5046d40b3393b4"
+    },
+    "agent-platform-eval-flywheel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-eval-flywheel/SKILL.md",
+      "computedHash": "39c79612d812a6590c24ce682346f11fbf4f70e966b1682e32d08e4780844aa5"
+    },
+    "agent-platform-inference": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-inference/SKILL.md",
+      "computedHash": "f83eee55d500d1e9326cac2a6240434c3adf345b4289397e0d1e2d00a95896e6"
+    },
+    "agent-platform-migrate-from-ai-studio": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-migrate-from-ai-studio/SKILL.md",
+      "computedHash": "e721aa1bfc0abe97c1ee2b2dc5e8e26a87019d9f9c78a3e69c919ea2b20505ab"
+    },
+    "agent-platform-model-registry": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-model-registry/SKILL.md",
+      "computedHash": "7695594cda19ab364ec0f6ab85a493feb18aa85053dfe576015aeaa7679e07ce"
+    },
+    "agent-platform-prompt-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-prompt-management/SKILL.md",
+      "computedHash": "98863c601cf535949f78ebdbbdd209566bc91b2257f9e71ccbcb8f6a449cf85e"
+    },
+    "agent-platform-rag-engine-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-rag-engine-management/SKILL.md",
+      "computedHash": "b4da83c2b64f5964e317aa20a63aca1814fd82d8cdbf7a00c34ddd26e642f857"
+    },
+    "agent-platform-skill-registry": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-skill-registry/SKILL.md",
+      "computedHash": "f90dba1bd85330cbd3050d7cf95204ba1e1493d2467bdefa270a33116081bc59"
+    },
+    "agent-platform-tuning": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-tuning/SKILL.md",
+      "computedHash": "c05b4f2e855df5bf8f9d984b7518ec4de1c4b77c97ff32339ecb6b132ef08af7"
+    },
+    "agent-platform-tuning-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/agent-platform-tuning-management/SKILL.md",
+      "computedHash": "87a9c1aff571a7eb3fac70ae99f03cd8baca4f523e93516e7dbae7c970de4647"
+    },
+    "agent-self-scheduling": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+      "computedHash": "0b076cea23fb2c7213902a37ee28fa29b1ab5631ec23255c7cc7115c507b2171"
+    },
+    "agent-skill-creator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/forge/SKILL.md",
+      "computedHash": "e9ddd3b67e72d8244a0389b633b9bda1b690e5e7d8f286acaa689d808dd65761"
+    },
+    "agents-sdk": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agents-sdk/SKILL.md",
+      "computedHash": "cb669fba9289d500872584ea0daab1c5114f1c8f12a991f90871431d3fadbf3c"
+    },
+    "aiq-deploy": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/aiq-deploy/SKILL.md",
+      "computedHash": "f18d4d7dcc639775f7f1ceffbca1941f9d098bb8382068a54119ed9cd5ed4c83"
+    },
+    "aiq-research": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/aiq-research/SKILL.md",
+      "computedHash": "fd2e99f928f13fc462d1eb9e22145804448c1695088dfdb1ce3d5e7c2493e918"
+    },
+    "algorithmic-art": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/algorithmic-art/SKILL.md",
+      "computedHash": "b2ca295de7f9c86c444f1fa21239e22e0eb7013ced1c652169b9402cc96ff744"
+    },
+    "alloydb-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/alloydb-basics/SKILL.md",
+      "computedHash": "5d1e9d00667b71653563a31b6d1187df96a43d27a4a39323d95ed06b73d81c1d"
+    },
+    "amc-run-sample-calibration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/amc-run-sample-calibration/SKILL.md",
+      "computedHash": "63d7f7e0365788438643fa99b84caeeb82a63810acc3b872ae9928430469adc2"
+    },
+    "amc-run-video-calibration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/amc-run-video-calibration/SKILL.md",
+      "computedHash": "cd027f0ebaa62c50364e3e1c33bae3d29c19121c3a7bad482fac25d7c64f88ea"
+    },
+    "amc-setup-calibration-stack": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/amc-setup-calibration-stack/SKILL.md",
+      "computedHash": "74d80f8cdc0017ac617147940d3cbd5e24e00396aa93e29d509ae7553532ae72"
+    },
+    "animation-vocabulary": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animation-vocabulary/SKILL.md",
+      "computedHash": "39319fc9a33c15be08666b3685f58666f042ff36bb902b7814c0834a5ba99df4"
+    },
+    "anthropic-skill-creator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/skill-creator/SKILL.md",
+      "computedHash": "3231583de33b0a9d6b5df2b1be6f4172ae3e2c29961fa86cde8874ede7f7b51c"
+    },
+    "anti-sleep": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops-and-setup/anti-sleep/SKILL.md",
+      "computedHash": "7eb3c57a9febc81716cc17be191d19662ceea951f2f782a2888eb64f93173050"
+    },
+    "apple-design": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/apple-design/SKILL.md",
+      "computedHash": "8b94db67cb9edaad5f1501010804caa610131f1d2dfda0a27664b2e858deade3"
+    },
+    "apple-notes": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/apple-notes/SKILL.md",
+      "computedHash": "0996d4d6157cc4b127621ec4ce7a35c0b75fe4cbcfc28ec4699ee5299c95051e"
+    },
+    "apple-reminders": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/apple-reminders/SKILL.md",
+      "computedHash": "017ad3751babf289cc71de172d49316bdebb2d53217a8065825cb31d6dbc8d75"
+    },
+    "ask-matt": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ask-matt/SKILL.md",
+      "computedHash": "cacd2e77c8c0b456133a60be07493dd091ace65f52b02f90cbb8f75de15989f5"
+    },
+    "ask-mcp": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ask-mcp/SKILL.md",
+      "computedHash": "e099d45e00d063547779e2eefd88bbc34fb9f139482aa9aa4f44fa62ccdbe0fd"
+    },
+    "bear-notes": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/bear-notes/SKILL.md",
+      "computedHash": "9f2e88b5da39f5916977523d3611fd4ae9b9e5712c1ea757a3d4f21f045a643e"
+    },
+    "bigquery-ai-ml": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/bigquery-ai-ml/SKILL.md",
+      "computedHash": "1ee50eae75de9bd492e94fa5d742805a8c766d11b9e2756f914c83373116097d"
+    },
+    "bigquery-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/bigquery-basics/SKILL.md",
+      "computedHash": "013b6377b26503b1ff815181f9db63598b35bf833c83c96fffc6a869c4429011"
+    },
+    "bigquery-bigframes": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/bigquery-bigframes/SKILL.md",
+      "computedHash": "4ca9a4719ffef5beb8e5b2399dac50fc022d853449d034260873ebfe7de21278"
+    },
+    "bigtable-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/bigtable-basics/SKILL.md",
+      "computedHash": "af872c189e25ae52463095b8d6a7ae5453a626e99e34eb27ebfbc173489cbd37"
+    },
+    "bird": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/bird/SKILL.md",
+      "computedHash": "88d372d933d10326e7b22318125b369f3f78e65dbaa892d35ff9573032a9257f"
+    },
+    "blogwatcher": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/blogwatcher/SKILL.md",
+      "computedHash": "f1d9b81c0673362d6fb59f986d028968d9de61eb9ea8dade8367ecbfca75fa4e"
+    },
+    "blucli": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/blucli/SKILL.md",
+      "computedHash": "e848db9b4edc4a707ec4390e0e775dad1174176178d557680326fc36118b5097"
+    },
+    "bluebubbles": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/bluebubbles/SKILL.md",
+      "computedHash": "60baa6d3f1a5684b1132377116b8e7a629581c18fa6acf4fcaabf59746d1dc03"
+    },
+    "brain-to-docs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/thinking-and-docs/brain-to-docs/SKILL.md",
+      "computedHash": "03c3afbd601f15d9c4b8fb0ad0d557cc903d01715dbbb70365ea0d9ee1606ee5"
+    },
+    "brand-guidelines": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/brand-guidelines/SKILL.md",
+      "computedHash": "e48840db6ea772ceecdb68b4e50f8cc77e2534b7580aeaf4a6fe6ee7bd845d7d"
+    },
+    "browser-harness": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/browser-harness/SKILL.md",
+      "computedHash": "526fab83e263843ad65154485a24a8a9be4386b667d2ee0faa7b9975a2bae47f"
+    },
+    "camsnap": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/camsnap/SKILL.md",
+      "computedHash": "3cdf3b179a8176aab3aaa2376f9bf6007d682f0237c4fb4e4eb4450767e1ce55"
+    },
+    "canvas": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/canvas/SKILL.md",
+      "computedHash": "c9534ea7b820ec29a5d1613795c8529bf7032ff4ad991c7c70a69c90fdf9c298"
+    },
+    "canvas-design": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/canvas-design/SKILL.md",
+      "computedHash": "3fa7ea60170023ad8268bf9fd734ea75dd404279a2ef8ddf5abaa1102ad8e5f4"
+    },
+    "cheshire-agent-identity-registry": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-agent-identity-registry/SKILL.md",
+      "computedHash": "5c984a7d740f508002419f7126f506e2b6adc25b5f4f954e0f45cc7d8cce5c7b"
+    },
+    "cheshire-agent-registries": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-agent-registries/SKILL.md",
+      "computedHash": "32796f74b35ec5c68870132c58d6f39f37279102335bead596c8ea9bce279d59"
+    },
+    "cheshire-agent-reputation-registry": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-agent-reputation-registry/SKILL.md",
+      "computedHash": "17850864e70d3392349798a2e11b11fe189733b5173b191a93ccd5f9784c1f1e"
+    },
+    "cheshire-agent-validation-registry": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-agent-validation-registry/SKILL.md",
+      "computedHash": "8e6d092b6ffae4aaf2ae6583f08b1fc9720f8cb8cb7b9690fa6106923b45599e"
+    },
+    "cheshire-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-api/SKILL.md",
+      "computedHash": "9ae8ce22c8e0fcdaf60e2f7a4f5e255c7d1155539d033aee76d4c7ff19099412"
+    },
+    "cheshire-noxa": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-noxa/SKILL.md",
+      "computedHash": "8e50d3bfa5fa7f6b316f4de3e7e59064d60f69f2057b4b45a9ee791eb0b02a32"
+    },
+    "cheshire-omni-mint": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-omni-mint/SKILL.md",
+      "computedHash": "a665a2c8323d2ca6cd85aea7876231f0bcbcb8326e8b042e437406342746523b"
+    },
+    "cheshire-terminal": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-terminal/SKILL.md",
+      "computedHash": "d3da9358a2d31af4bd9c449889a4b8d9099c4ff469819b6f8732e9ae2fce17a8"
+    },
+    "cheshire-zk-omni": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cheshire-zk-omni/SKILL.md",
+      "computedHash": "fcb0030e2da42331eac5f1d2384ef669ff4a459146d3688fcfb561e08d070f4e"
+    },
+    "claude-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/claude-api/SKILL.md",
+      "computedHash": "adf50b5ad4d1a4a1026455c77311fe56051d41912d2b5f7fc987f14eb4dfd4ba"
+    },
+    "claude-code-skill": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "openclaw-claude-code-skill-main/SKILL.md",
+      "computedHash": "7a86ebc7f49f4e4bafe291a728040523cce6e0a8965a34de66693e59e13404be"
+    },
+    "claude-handoff": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/claude-handoff/SKILL.md",
+      "computedHash": "6bde27729c8a56b601b4137024a6a9e8056e214b45d2cfc64c69eec93d0b6f66"
+    },
+    "clawd-agent-launchpad": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/clawd-agent-launchpad/SKILL.md",
+      "computedHash": "de67266055c5ee5847fcde3f15c065a6c54372f63cf496a446b384d3cb2ac1d0"
+    },
+    "clawd-code-skill": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openclawd-clawd-code-skill-main/SKILL.md",
+      "computedHash": "25ced2cc5043cae59be18667899533de97cb825f13e0f5008e19d8fb351e30e2"
+    },
+    "clawd-skills-installer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/clawd-skills-installer/SKILL.md",
+      "computedHash": "7aabf9ee34fd32a81d6d468103d9ac2ff8455b57c89edfc3c2f23916161420a8"
+    },
+    "clawd-token-ops": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/clawd-token-ops/SKILL.md",
+      "computedHash": "396bbad7f1e2171961f5c4305b31eafd27939735c48690b176ee7868f2ceeccf"
+    },
+    "clawd-trading-terminal": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/clawd-trading-terminal/SKILL.md",
+      "computedHash": "0589c18c6ad6c8d36a156523ebef31c8fb227a611f9f97afa57748b54c6197e1"
+    },
+    "clawdex": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/clawdex/SKILL.md",
+      "computedHash": "958849ed5b9c8ebdf82bb666c09a5fdb70dcc9140101d59e7d514b04cbf60e1a"
+    },
+    "clawdhub": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/clawdhub/SKILL.md",
+      "computedHash": "e2bae388fb7ffe0d76d3f95d7621a2c947a145baaa3af3194caaa18d4a69cd19"
+    },
+    "cloud-run-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/cloud-run-basics/SKILL.md",
+      "computedHash": "231a70947f37e58f4cf8f284df8b8fb618a6a4b5f3b7e861d6b20993f5d1bc3c"
+    },
+    "cloud-sql-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/cloud-sql-basics/SKILL.md",
+      "computedHash": "a670390795aad4a49d4628aad3378396aa736cd2684979256baf74361e87063c"
+    },
+    "cloudflare": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "computedHash": "a1646a6a2fb7cc683de5bf8357e5d6ae02db6fd0bf771d633c1890318e25bff2"
+    },
+    "cloudflare-email-service": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cloudflare-email-service/SKILL.md",
+      "computedHash": "6274be056fe5211aa220833c97ff6a7d96a1cdfd8854a53ca839ca758d35f356"
+    },
+    "cloudflare-one": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cloudflare-one/SKILL.md",
+      "computedHash": "92ee52930b78562889b3bdde7c6388f1c30f5906e2c00f43032ff494e65a75c5"
+    },
+    "cloudflare-one-migrations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/cloudflare-one-migrations/SKILL.md",
+      "computedHash": "8ee5405a05467347b9e9ac28b4dd10cec3865b6d37bc9d974c0e75860a921bb2"
+    },
+    "cmux": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/cmux/SKILL.md",
+      "computedHash": "6a06a8e784dd894b70141d369127f06596e3345f4e2203f0966d5ece8deb147c"
+    },
+    "code-review": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/code-review/SKILL.md",
+      "computedHash": "4a17d9d3e0fc87ae48544d371a820fac5a4a78f4c05e7e6b3229094fbf8a7e26"
+    },
+    "codebase-design": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "computedHash": "2426dc4accf1a85dedfb560edb3a877ec8828b7375ea08c970df2b6c900a2a22"
+    },
+    "codex-subagent": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/codex-subagent/SKILL.md",
+      "computedHash": "cb46fedc0b523be16a8ac62afbfb9186d37124b56113cffe81c650d6520a5cea"
+    },
+    "coding-agent": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/coding-agent/SKILL.md",
+      "computedHash": "a92a22e5f84eb853f95541597aac4aeea137b08719fce76225bdaff181b7d7ea"
+    },
+    "compressed-pda": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/compressed-pda/SKILL.md",
+      "computedHash": "567a54eb19a311916d36f38e9f454cce3790f2f861003c59f37e981c54c4b341"
+    },
+    "compressed-token": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/compressed-token/SKILL.md",
+      "computedHash": "27f57c41ea113c384a3dada92d39f4d555e237ac83fea9ea68911bf4f7ee7e95"
+    },
+    "copy-trade": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/copy-trade/SKILL.md",
+      "computedHash": "91d27718499fc8c2a1a511bdcd8135cf7e29a21d52f97bcb395dd1cf52ecd1a8"
+    },
+    "create-agent-tui": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/create-agent-tui/SKILL.md",
+      "computedHash": "9cc5fd37dfd2b8e00d40b41f071859548c103dd25a89d268fe3ce5b4ab2c8d66"
+    },
+    "create-readonly-db-role": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops-and-setup/create-readonly-db-role/SKILL.md",
+      "computedHash": "2e3e4cbc7b19460a5b5c8384b3489b139beec5f21a630bfdb8b13dd62bebb4cf"
+    },
+    "cudaq-guide": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cudaq-guide/SKILL.md",
+      "computedHash": "a7fbe0043f08758fc59c8dded234b832b3ee97670164dfadc41d5b4b287ffd45"
+    },
+    "cufolio": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cufolio/SKILL.md",
+      "computedHash": "3e79d9280f324e3480932026cec3d6de9f148ab7db3a3f4eec6d9733fec8fa69"
+    },
+    "cuopt-developer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-developer/SKILL.md",
+      "computedHash": "5d4abbe69c1a134e004c48d20c4fdcdec73f4662be36b51ea0bd704ad1bbeba0"
+    },
+    "cuopt-install": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-install/SKILL.md",
+      "computedHash": "55bbacec9b826ec9d21c8f4727e02bc8649b9443864b470168712bbc6ffc6a01"
+    },
+    "cuopt-multi-objective-exploration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-multi-objective-exploration/SKILL.md",
+      "computedHash": "633a1f1b468aa8cbae9c2141753a3091bb2a9a10f2c88a642bb5f53ec372bb14"
+    },
+    "cuopt-numerical-optimization-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-numerical-optimization-api/SKILL.md",
+      "computedHash": "c9aea783c6e085a88fa56ea17408f7009e4db6df0fe48d1f50c1498ccc756446"
+    },
+    "cuopt-numerical-optimization-formulation": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-numerical-optimization-formulation/SKILL.md",
+      "computedHash": "15911952ba76573dd454886e5c05209398e3b7f35ee718a58311aae4f8184082"
+    },
+    "cuopt-routing-api-python": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-routing-api-python/SKILL.md",
+      "computedHash": "4381a20b67896c449c0cd0b54c019d694ef5c9444974a63bf87bdc2c31654e92"
+    },
+    "cuopt-server-api-python": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cuopt-server-api-python/SKILL.md",
+      "computedHash": "826bd85df37b56cb19f4d865837086079b767addbfdd6fe9e633665414cd4bcc"
+    },
+    "cupynumeric-hdf5": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cupynumeric-hdf5/SKILL.md",
+      "computedHash": "e4456412f2b042164fa3acfb6e8ee11c42c6c38d609f129e2493df18958012a4"
+    },
+    "cupynumeric-install": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cupynumeric-install/SKILL.md",
+      "computedHash": "56f98ed404ef698addf19cff316ba4bfa8b0618e80fc50f60b45803944e98a23"
+    },
+    "cupynumeric-migration-readiness": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cupynumeric-migration-readiness/SKILL.md",
+      "computedHash": "031a6d14ce8027f7845fb16e2eb6b0833783c9e5f8345f832b1b1e8ea992d2d1"
+    },
+    "cupynumeric-parallel-data-load": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/cupynumeric-parallel-data-load/SKILL.md",
+      "computedHash": "95ac6288b5be634edc23da19c76c679b3334043c89aa7ce084125a33735c7b8a"
+    },
+    "cyber-audit": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops-and-setup/cyber-audit/SKILL.md",
+      "computedHash": "74e82d8f0b0cf70004e05ffe95e0ec9f1571fed3df1e781dd20d78494cdd63c5"
+    },
+    "dali-dynamic-mode": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dali-dynamic-mode/SKILL.md",
+      "computedHash": "18794a7492a527f789257a36fcc2b079742fec21b648778995a46f91cc1caaac"
+    },
+    "data-designer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/data-designer/SKILL.md",
+      "computedHash": "cb435e2847c83ab40cae1cb95786d470ba66e0b8507a7a9af7a436cc5785e6e5"
+    },
+    "datalineage-bigquery-asset-impact-analysis": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/datalineage-bigquery-asset-impact-analysis/SKILL.md",
+      "computedHash": "6e8171807ebfbddaf63047f60019d635381ade52d1319e104c4bf4a2b50d4b64"
+    },
+    "dca-bot": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dca-bot/SKILL.md",
+      "computedHash": "277b1ae25c013f4717184c4a9f20f64022e1b809c845e881918b719a5193f2dc"
+    },
+    "deep-research": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/deep-research/SKILL.md",
+      "computedHash": "8f81958d988071e0cdcd5da64f86cf54553c95888e669d8e7df2adbb45043a9a"
+    },
+    "deepapi": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/deepapi/SKILL.md",
+      "computedHash": "be52bf627321856ea5ce80b2198720ae5d08a7885fd08d5e0b30b3c69e458cc3"
+    },
+    "deepstream-dev": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/deepstream-dev/SKILL.md",
+      "computedHash": "6ad4ad542610d4862c2767ab258947cf2eaef915246dd3ec99c9fddd8eaadd80"
+    },
+    "deepstream-generate-pipeline": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/deepstream-generate-pipeline/SKILL.md",
+      "computedHash": "81c31675172abbab202729979293b8cf2c052a8ac5d3f4df2815a002e17efcfb"
+    },
+    "deepstream-import-vision-model": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/deepstream-import-vision-model/SKILL.md",
+      "computedHash": "a00419f55cbd451f403f4d95aba586b50c09a19d51752a29519ad47bfb51dcd7"
+    },
+    "deepstream-profile-pipeline": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/deepstream-profile-pipeline/SKILL.md",
+      "computedHash": "b47139c1baff54cfc4329e63a104e3b8ce44a3e81598e15b4cad7598fb80e503"
+    },
+    "deepstream-sop": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/deepstream-sop/SKILL.md",
+      "computedHash": "2c5efb2af2bc40beea9d8b1f5089c4f07ca4bae4296cace0951e8f1a4ee7abde"
+    },
+    "deployer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/deployer/SKILL.md",
+      "computedHash": "73b54e9f79855c470fb2e8ea61ff21fab631e19d011c6fdedc27a41fc0c98f8d"
+    },
+    "design-an-interface": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/deprecated/design-an-interface/SKILL.md",
+      "computedHash": "885b05367fb1cf61a1e27e0d50f14d2502a05c1fa276c6e9ea050ce6a90e7095"
+    },
+    "detection-engineering-coverage-evaluation": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/detection-engineering-coverage-evaluation/SKILL.md",
+      "computedHash": "5cbb804349715b7ddd69d6f95ab0ffed8721c95d73367e2b18580d8089f9a4f0"
+    },
+    "dex-screener-scanner": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dex-screener-scanner/SKILL.md",
+      "computedHash": "b49f67ea03a0a166e0cf72ceaed289525fcbfa380ad5a0e08a70875976f4bd9c"
+    },
+    "dflow-docs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-docs/SKILL.md",
+      "computedHash": "3c15ef049b38a944600ea4ecef26756c2e3b4386481174524a13f3c5fb30124b"
+    },
+    "dflow-kalshi-market-data": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-kalshi-market-data/SKILL.md",
+      "computedHash": "b483873c994d25a1329ac30ad736229c177e3987dee162a439bac51022f5642d"
+    },
+    "dflow-kalshi-market-scanner": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-kalshi-market-scanner/SKILL.md",
+      "computedHash": "6fbaf92472da5df4ddd7a3e6bd7ca497ff2c33c9228d434c511f47a0162c9675"
+    },
+    "dflow-kalshi-portfolio": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-kalshi-portfolio/SKILL.md",
+      "computedHash": "f014cb5753389712d76596da55b4d4ada2da042f943a2199f5e12b8ddd2335dd"
+    },
+    "dflow-kalshi-trading": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-kalshi-trading/SKILL.md",
+      "computedHash": "f5caecbd9bd51b57affce9cceaf13f4811673be5e3eac1b36f066d86e4bce0c9"
+    },
+    "dflow-phantom-connect": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-phantom-connect/SKILL.md",
+      "computedHash": "bfe512512c76bc910dd7c05b4632c1199bdfb6cdc4880dd792768f6da1f244c7"
+    },
+    "dflow-platform-fees": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-platform-fees/SKILL.md",
+      "computedHash": "cc3e0eaba50bcdc6017fde568c0a93951caa4668923193937a599072afd12fc8"
+    },
+    "dflow-proof-kyc": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-proof-kyc/SKILL.md",
+      "computedHash": "fee29ea7f62d89e08b15cf3df0596aeac61d232f89fcf677203b9ba1961de801"
+    },
+    "dflow-spot-trading": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/dflow-spot-trading/SKILL.md",
+      "computedHash": "1d6dd128df0ea86c603aac7bda0864f4de519586b04cf8fb296c410492a23e00"
+    },
+    "diagnosing-bugs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "computedHash": "1a993ce9b2aaa653ee441c8d7efb7f27de03493c722be6dfb8137bcb8db1bc72"
+    },
+    "dicom-metadata-extract": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dicom-metadata-extract/SKILL.md",
+      "computedHash": "f35f4fe0ded7166ebf2abd57510d8d353cd5fa8348431aff4ede21e9672d4a2b"
+    },
+    "dicom-series-preflight": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dicom-series-preflight/SKILL.md",
+      "computedHash": "7eb9218cdc1561738bc707d7e98409f46ee3dea120628f10b9252d091c82531d"
+    },
+    "dicom-series-to-volume": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dicom-series-to-volume/SKILL.md",
+      "computedHash": "752a5f39aecd119c07574de763eb6f471586891b2a08af5899ccc9cc0afd1ead"
+    },
+    "digital-health-clinical-asr-build": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/digital-health-clinical-asr-build/SKILL.md",
+      "computedHash": "da63fa7e682cfe9726b237dd60db4297e3a6ef49362c13e3d848c23c49484e1f"
+    },
+    "digital-health-clinical-asr-eval": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/digital-health-clinical-asr-eval/SKILL.md",
+      "computedHash": "21fe79d20cf50a9984349f937e4d33918a7c6f2c1d56c0cb2265d1cf67075ef2"
+    },
+    "digital-health-clinical-asr-finetune": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/digital-health-clinical-asr-finetune/SKILL.md",
+      "computedHash": "c07417728f1a06ae9b32c864dda0643a9d6226efdc613eeb6484f462e5208673"
+    },
+    "digital-health-clinical-asr-setup": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/digital-health-clinical-asr-setup/SKILL.md",
+      "computedHash": "157417dbe94466131f46e2b685b6b3d5a13a3ec43fef431d90bf0e33c73752d3"
+    },
+    "distribute-skill-to-all-agents": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-authoring/distribute-skill-to-all-agents/SKILL.md",
+      "computedHash": "11f4a2062579cb9bbebf840f210f23969a0e3208fc93c375a0481f9cb3d5e87a"
+    },
+    "doc-coauthoring": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/doc-coauthoring/SKILL.md",
+      "computedHash": "b964e4c3ffe13f66f76dd7919073e60c7aec622cd8a8363bb36323188100cf8e"
+    },
+    "docx": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/docx/SKILL.md",
+      "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
+    },
+    "domain-modeling": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "computedHash": "67343881f5def98487d56243155716110afbcbf22ec92421c882d532b941cb17"
+    },
+    "durable-objects": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/durable-objects/SKILL.md",
+      "computedHash": "72efa2277fea08f43b393c74abaacc9fa575e20bc63bdc9d46829b8a39352852"
+    },
+    "dynamo-interconnect-check": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dynamo-interconnect-check/SKILL.md",
+      "computedHash": "8d7f619bba47baa2b1a97b74a7c08f6427151265d24ae0e92b7686f4821c08f2"
+    },
+    "dynamo-recipe-runner": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dynamo-recipe-runner/SKILL.md",
+      "computedHash": "f10843481e10decfe22fc1b9c4b08b5123458fe2355a423f206971fc9c028044"
+    },
+    "dynamo-router-starter": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dynamo-router-starter/SKILL.md",
+      "computedHash": "c4603eea29919f85c6cb5c76d057fc5185281b9d9487e3080b19e5a2b4230aaa"
+    },
+    "dynamo-troubleshoot": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/dynamo-troubleshoot/SKILL.md",
+      "computedHash": "ab930037e00509ac6a9506fd948b9c41181022ca7a109597de8af5775e6ce502"
+    },
+    "earth2studio-create-datasource": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-create-datasource/SKILL.md",
+      "computedHash": "206358ce1e5d369fc4bae15febad3a9b0f03bcfd060c907f0ae335813ee31ea2"
+    },
+    "earth2studio-create-diagnostic": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-create-diagnostic/SKILL.md",
+      "computedHash": "32b36d546a469b4b7788e9aabbe9ed84451f42c2651328e2200c4a615f31b044"
+    },
+    "earth2studio-create-prognostic": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-create-prognostic/SKILL.md",
+      "computedHash": "213c7300c9601b436778b42768a6e80ea2f7b34f6051a07f7cb92dbcb4010f14"
+    },
+    "earth2studio-data-fetch": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-data-fetch/SKILL.md",
+      "computedHash": "9bdbf43ba9a76d171b02ea02560c7c26e04e455e127e08807729d76a9ece9f12"
+    },
+    "earth2studio-deterministic-forecast": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-deterministic-forecast/SKILL.md",
+      "computedHash": "d747c72a64b673b79a5fd290954a3c53fde916e3a09ebb65d4e95502fd0d4dcb"
+    },
+    "earth2studio-discover": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-discover/SKILL.md",
+      "computedHash": "b252b08fe5353005a6411ff7a7b8c11174c2d3144a44a53c0a7a96ca78de910e"
+    },
+    "earth2studio-install": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/earth2studio-install/SKILL.md",
+      "computedHash": "589f3c6d56d991819375b1cd9a30803317925f84b34ff7e9107ffe03c7fd4711"
+    },
+    "edit-article": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/personal/edit-article/SKILL.md",
+      "computedHash": "8d7aec1987245a27e9c7d585b9f11d1129b8bd8ecb3a8596cdd3048974d9e302"
+    },
+    "effective-agent-skills": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-authoring/effective-agent-skills/SKILL.md",
+      "computedHash": "e7d556c0fe2bc9534b50a3eb13eb876e3cbe82d0c30feb57726dd97dfc7bc668"
+    },
+    "eightctl": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/eightctl/SKILL.md",
+      "computedHash": "d98e315e862a7b238c774b24325fd3e06bf8c2053d585b8f2c486228c8297f15"
+    },
+    "emil-design-eng": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "computedHash": "8bdf9e4e6de7a4969147bf4828a4ad2c5aacd9fba4b690b250a85e0467ca387d"
+    },
+    "fable-safe-prompt": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/fable-safe-prompt/SKILL.md",
+      "computedHash": "f3723a29f93dd8b77c74ff558ee0271c7e1571d6a89025cfcb67301dc76b9bb5"
+    },
+    "find-skills": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461"
+    },
+    "firebase-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/firebase-basics/SKILL.md",
+      "computedHash": "79f1c1fd4703f657c8803e6fc250a29e894dc6789b737d767b0c16ec15bd3c07"
+    },
+    "folder-specific-claude-and-agents-md": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-authoring/folder-specific-claude-and-agents-md/SKILL.md",
+      "computedHash": "9625e24e23b61498cde82c21668d2d47e86d0b13f090dc74c62c11ba212e8ecd"
+    },
+    "frontend-design": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/frontend-design/SKILL.md",
+      "computedHash": "4eabc66183767153e404b39d1b839b1c37f2d82d86f0a0d7e880a579d8d62336"
+    },
+    "gateway-node-ops": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gateway-node-ops/SKILL.md",
+      "computedHash": "aeb966df49da3b0022c1ca94a8f659cf2e059a416591034d70eece941cb647ad"
+    },
+    "gcloud": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gcloud/SKILL.md",
+      "computedHash": "23294abb27c0569af44578e1a9547dff021d51620f27c4f37a8acff29b400350"
+    },
+    "gemini": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gemini/SKILL.md",
+      "computedHash": "41bdfd1e51cb301880938d6ea7693717c08ffdbca49ad6c33782487bd2aa0ac6"
+    },
+    "gemini-agents-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gemini-agents-api/SKILL.md",
+      "computedHash": "a9b311653dd7bd60a7d1c5bf81e58dae52597cda8b2e84bf85dfca77c5b957c6"
+    },
+    "gemini-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gemini-api/SKILL.md",
+      "computedHash": "d760b7f8b783fc2cc3ab72b8286c46617cbca38569377a8ad018925e0d53620f"
+    },
+    "gemini-interactions-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gemini-interactions-api/SKILL.md",
+      "computedHash": "ba26a90e1c983cb31677dad959c9252aeac799358362d0b8a1505bb0e506c043"
+    },
+    "gifgrep": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gifgrep/SKILL.md",
+      "computedHash": "74f16561f93e0e2c22c022a5cde28b10de4e6060172cf4362d7593d80ad2055c"
+    },
+    "git-guardrails-claude-code": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/git-guardrails-claude-code/SKILL.md",
+      "computedHash": "53a1de29d2b76481202608376fa4a20a8bd7e65b0b8a907a8c9578e629cf313f"
+    },
+    "github": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/github/SKILL.md",
+      "computedHash": "a7580b43bdc65d4f6469ef7e631dbbea649714dc3bbedc060f23525d331a7e53"
+    },
+    "gke-app-onboarding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-app-onboarding/SKILL.md",
+      "computedHash": "5aa29581386f3bdce1cc58bc1fdeca79ef5a2b8c531b68e5df2b5e6478c9b207"
+    },
+    "gke-backup-dr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-backup-dr/SKILL.md",
+      "computedHash": "7155d996245d76cb3b77600df846bf5150410731e33805b108e36c98513d4af4"
+    },
+    "gke-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-basics/SKILL.md",
+      "computedHash": "36c7904aa675c6a2030829c4831e68719b5078355e0c82aa79dc1d99bc579669"
+    },
+    "gke-batch-hpc": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-batch-hpc/SKILL.md",
+      "computedHash": "a8acb16b99f5cb39eea11a7cba02470c6d3b9bc9ed3924dd1a7bb0c7a79ee8ef"
+    },
+    "gke-cluster-creation": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-cluster-creation/SKILL.md",
+      "computedHash": "3b3a5fb7b2bd3abb6c361e959b41f1031d8efa28a1926ccab87c2bddf98778d7"
+    },
+    "gke-compute-classes": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-compute-classes/SKILL.md",
+      "computedHash": "8e2ddf39a553118052d387ef949b37ac27f3fd9916274f3fbddc3fb20773a15a"
+    },
+    "gke-cost": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-cost/SKILL.md",
+      "computedHash": "ad1acebd5d4edacde6861804335593dbc450b6c1854a6f41b8eb30314cc12bbf"
+    },
+    "gke-golden-path": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-golden-path/SKILL.md",
+      "computedHash": "99ef5fad5ec4fda9a6be4d080e277aa3b40382383aaed83148e97a734e42bcee"
+    },
+    "gke-inference": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-inference/SKILL.md",
+      "computedHash": "0b76b011c10200b9883a71fb81be0b539d0c3886e9e3f51120ef6a3c06bd7d75"
+    },
+    "gke-multitenancy": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-multitenancy/SKILL.md",
+      "computedHash": "a684556d1410441b321e43774b65d30813754b7b9f6eb16bbd73b348f3e37255"
+    },
+    "gke-networking": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-networking/SKILL.md",
+      "computedHash": "92092c1bdbd27e8a70ab8118b12971d4610c476f6a56ecea185df0ec7d3bd2b5"
+    },
+    "gke-observability": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-observability/SKILL.md",
+      "computedHash": "4f10b835eb8225c4a86acae469033502935d27f77019fafb68af2b8b7b42aadd"
+    },
+    "gke-reliability": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-reliability/SKILL.md",
+      "computedHash": "711e50c2528218e1141ea8f542f8e8521f37d7ad38adadd68a6fa4a931d38603"
+    },
+    "gke-scaling": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-scaling/SKILL.md",
+      "computedHash": "4d525e4880084784d95f24c35bfebd78fc875390ec6ff444c74705722f485fca"
+    },
+    "gke-security": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-security/SKILL.md",
+      "computedHash": "7d3ff4c1b1bbb714bf6e0989a0349804fc0f58e04dbca6a7b61e23724ecf8f8a"
+    },
+    "gke-storage": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-storage/SKILL.md",
+      "computedHash": "c5b54c8c2a495a2ff979e00b84d47c8b460814eeecabf422c6c65a7b477412a4"
+    },
+    "gke-upgrades": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/gke-upgrades/SKILL.md",
+      "computedHash": "6d20dca25d70e15bd1088e23f80467a858692df667490b9f3b765510576fb265"
+    },
+    "goal-loop": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/goal-loop/SKILL.md",
+      "computedHash": "4da1e518bf959b449985e384d3d384aadef2ae8547278d273b0ef455ec6511b1"
+    },
+    "gog": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gog/SKILL.md",
+      "computedHash": "5d89f36cc8b66bc006415c4798f8173f901f8cf2da91bb54d634076571d81e8c"
+    },
+    "golang-benchmark": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-benchmark/SKILL.md",
+      "computedHash": "62039f51cffedd4d5a452c8d2a48ec1cd6777ec57a6aa1cd86511ebc4943c878"
+    },
+    "golang-cli": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-cli/SKILL.md",
+      "computedHash": "1901746f0c3c32b219ee06c750e386c2bbdb76978419b8d662aad68cb6759eb6"
+    },
+    "golang-code-style": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-code-style/SKILL.md",
+      "computedHash": "1c949d9721fac34faf39e640a08c9f17b6449a64183824ac99d2e3785b1fef57"
+    },
+    "golang-concurrency": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-concurrency/SKILL.md",
+      "computedHash": "599a74eed42371e5e82f8afe0eb42805a1807341d998c8d85cf8232303b66c46"
+    },
+    "golang-context": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-context/SKILL.md",
+      "computedHash": "17351f3065a9857759db7f279f693eeacb9a4d6c84ddac5c9c74a08ca1d04b62"
+    },
+    "golang-continuous-integration": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-continuous-integration/SKILL.md",
+      "computedHash": "3e05e6159414419c167712b788bf0a066818b514c3385a2907de2c33ee886f1a"
+    },
+    "golang-data-structures": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-data-structures/SKILL.md",
+      "computedHash": "1fd9e735f6e30f22638fc76a0b3583e37a279d362b7ea08c7ad8a381b9c26721"
+    },
+    "golang-database": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-database/SKILL.md",
+      "computedHash": "909e31dbc8bb6eea2851985825a81dc53e954c31e76c31bbeaa5b690ee0de9ff"
+    },
+    "golang-dependency-injection": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-dependency-injection/SKILL.md",
+      "computedHash": "ddc61a1dade6025c285a2c24e4efab2d8ee17bdc4ed0bab84663eb25fb6f03f2"
+    },
+    "golang-dependency-management": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-dependency-management/SKILL.md",
+      "computedHash": "2a308393ed1d6624e6c5c59a12a9aab25431d237e1e543d03aa97f1121950ab3"
+    },
+    "golang-design-patterns": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-design-patterns/SKILL.md",
+      "computedHash": "be80b0298aa92d2563dae317e4558f96f0f4990684254c41e644bf35b7c40b5e"
+    },
+    "golang-documentation": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-documentation/SKILL.md",
+      "computedHash": "9ac7585cd6df629c6862c68c4f65db1cb16ea73d3c6655c6fb5dacc89ac36fba"
+    },
+    "golang-error-handling": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-error-handling/SKILL.md",
+      "computedHash": "1601d92a30a221903d024d4ad470595c3c6141d14a5b274a446394adefc83a52"
+    },
+    "golang-google-wire": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-google-wire/SKILL.md",
+      "computedHash": "809cd5676966febc7b36a09a63f37b71d7945a5ea59cc9b51c03cb9b9b1a2937"
+    },
+    "golang-gopls": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-gopls/SKILL.md",
+      "computedHash": "f92d164da860d10ca171d8127602383010be173ae8858eab92fe8b028f0e4231"
+    },
+    "golang-graphql": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-graphql/SKILL.md",
+      "computedHash": "11aef7592117d7cb8cc63a6e26436ae073bb0b5f9e68f996c11a1bbaa2e98c59"
+    },
+    "golang-grpc": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-grpc/SKILL.md",
+      "computedHash": "14355dae5b44931ecefb748b10383e55bd7a39551e804477b7207c04e3bc6f11"
+    },
+    "golang-how-to": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-how-to/SKILL.md",
+      "computedHash": "b0e79b814c49078ddabd93533851e745fb29f5a33afcdea0de9317ac6ebf050a"
+    },
+    "golang-lint": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-lint/SKILL.md",
+      "computedHash": "ea282d6b3a39d02fc468ef66615830de75f720c66ac72e899c4479868bea6c76"
+    },
+    "golang-modernize": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-modernize/SKILL.md",
+      "computedHash": "923780b2686c61be6b39f8ab201ad6449457a718b0484cff3b115c481f06af73"
+    },
+    "golang-naming": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-naming/SKILL.md",
+      "computedHash": "7c2f78c3494f46599b85aa33a5b8d2b05b7d6cedf596247d862877b79d20d442"
+    },
+    "golang-observability": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-observability/SKILL.md",
+      "computedHash": "aa70cddb5f28db0682dce7d5327e63f1abbf48705dc61786aa13849e7781c833"
+    },
+    "golang-performance": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-performance/SKILL.md",
+      "computedHash": "56a9621bfd52c2674a27217f8e223df117b605b15fe06be8ec666c5d2c02604e"
+    },
+    "golang-pkg-go-dev": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-pkg-go-dev/SKILL.md",
+      "computedHash": "e44d5d8b5f80b272399139c3270986b484b2c45a4e3ae3381160bcb15216c231"
+    },
+    "golang-popular-libraries": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-popular-libraries/SKILL.md",
+      "computedHash": "6c6eef244f145651f395c563ce5a392af49059e5919aa18774d25f4528ae1e88"
+    },
+    "golang-project-layout": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-project-layout/SKILL.md",
+      "computedHash": "4410bbe9953100fd277f6a1deb1c66d7d73c5e30217af322edf2125394940286"
+    },
+    "golang-refactoring": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-refactoring/SKILL.md",
+      "computedHash": "2af895968756f63a123fccca14b83adf5465cb636327fc86678609082d39060b"
+    },
+    "golang-safety": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-safety/SKILL.md",
+      "computedHash": "dc54b4e717130dfe632f8996d8a72b8946fa966e3711f12a49b3d6573d6df466"
+    },
+    "golang-samber-do": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-do/SKILL.md",
+      "computedHash": "8cf10205b5922bdc9dc7162b21d741408886efc06c4ddb31f08db98230ce0832"
+    },
+    "golang-samber-hot": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-hot/SKILL.md",
+      "computedHash": "44f0f41e90396ffd73ea5a0a973118653b579baa3f628abc032aee745b25b2e6"
+    },
+    "golang-samber-lo": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-lo/SKILL.md",
+      "computedHash": "0891a177c8c6d552bb59d42b09dd39e44eb6528ed4c9ad66c8161867325eaf9a"
+    },
+    "golang-samber-mo": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-mo/SKILL.md",
+      "computedHash": "4a4eaa554c9f6c6705b9465084a94696f8e92d78f61e0093a2edc658d0f2fb4c"
+    },
+    "golang-samber-oops": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-oops/SKILL.md",
+      "computedHash": "7202aa8853513f358eda71d422dfc5f16563e3863e47de4a6e8f7e2ec05648c2"
+    },
+    "golang-samber-ro": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-ro/SKILL.md",
+      "computedHash": "4c6b5d0e6e4ba0646cad34ccf283ab91651b2310b0955e072d916d23c85d5cc1"
+    },
+    "golang-samber-slog": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-samber-slog/SKILL.md",
+      "computedHash": "baaf12a31a156c7a43988f77b6f2252827d7f9d1b155ce337cf853c82e8d14eb"
+    },
+    "golang-security": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-security/SKILL.md",
+      "computedHash": "ec7a8da21c7ca213783cc1631c3496c841209ba92fdf8155c1c9e45dfee38c94"
+    },
+    "golang-spf13-cobra": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-spf13-cobra/SKILL.md",
+      "computedHash": "dcfa99ce23eef99133df4b82fd1152c9ef8e1fef8fc467db2fb8f62398f7747f"
+    },
+    "golang-spf13-viper": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-spf13-viper/SKILL.md",
+      "computedHash": "505e169ef1bf75acefc2c2f8ec9c6d0f1cfc9ad48c1f14730b72359596a3b6d5"
+    },
+    "golang-stay-updated": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-stay-updated/SKILL.md",
+      "computedHash": "76ad4a471595b1e2ff49a1cfe3ce813e9909c0d220524a956c2fa586910ef376"
+    },
+    "golang-stretchr-testify": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-stretchr-testify/SKILL.md",
+      "computedHash": "309c5ed8d19ffefe86fce6c3f950f3ef008415ac9670feedee8de852f7eba24d"
+    },
+    "golang-structs-interfaces": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-structs-interfaces/SKILL.md",
+      "computedHash": "421cf8eab6c55edc0e3a47d74daaf50d5eded6c5d40fa289b1cda873bdcb8243"
+    },
+    "golang-swagger": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-swagger/SKILL.md",
+      "computedHash": "8b9263be170011dd5242dd31147853abdcc496fde232dba6346ae7435b523882"
+    },
+    "golang-testing": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-testing/SKILL.md",
+      "computedHash": "5149794b7adbda8f4509fad7ec13b63cbae0c4aacad915b87b324cda2be3f5ac"
+    },
+    "golang-troubleshooting": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-troubleshooting/SKILL.md",
+      "computedHash": "cd547f6013dc017af54d16baf37cca1a0cac3c1db61a728b68828659aae71d55"
+    },
+    "golang-uber-dig": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-uber-dig/SKILL.md",
+      "computedHash": "587984786422e897d253ebd76ad1278db7de1a11cec2136f2b468e828bad2f51"
+    },
+    "golang-uber-fx": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "skillPath": "skills/golang-uber-fx/SKILL.md",
+      "computedHash": "4b77c609828aa3de034247b1c19d2ed2230be89015cc930dfe1ee0bfe2be1b48"
+    },
+    "google-agent-registry": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google-agent-registry/SKILL.md",
+      "computedHash": "9b4ec258ea814bd72541303d07db447e2ff8ae36d60f06df6a7446cf5d51bc4b"
+    },
+    "google-agents-cli-onboarding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-agents-cli-onboarding/SKILL.md",
+      "computedHash": "3c33fbed1ad1ac5bb30f5bc056c7281f74b19b97fb9f88d7002f82c6e0681e29"
+    },
+    "google-analytics-admin-api-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/analytics/google-analytics-admin-api-basics/SKILL.md",
+      "computedHash": "fefa4ceb987f75cce8069c470c41f40a45e99b20d5df066991fbf60a39e562b5"
+    },
+    "google-analytics-data-api-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/analytics/google-analytics-data-api-basics/SKILL.md",
+      "computedHash": "1480fe9dfa8d3bc12696277ac76a73097bea86790a76a36c0846a1e5adbe1f57"
+    },
+    "google-cloud-networking-observability": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-networking-observability/SKILL.md",
+      "computedHash": "a22bc1863b3645268c134d89e756d0c761df1d3132e7b563e3270485174c2716"
+    },
+    "google-cloud-recipe-auth": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-recipe-auth/SKILL.md",
+      "computedHash": "a188e06aacfbc4f6e7935cc0642e7b831774ce3aba0a17fda8b220d458f2f9ca"
+    },
+    "google-cloud-recipe-foundation-builder": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-recipe-foundation-builder/SKILL.md",
+      "computedHash": "a3dd2037897e1bb9ab9129f071b3f52bea0e903580410b71545021eff9b431a3"
+    },
+    "google-cloud-recipe-onboarding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-recipe-onboarding/SKILL.md",
+      "computedHash": "d590a64a207d7d0e231788cf5f5e383e934ba08cff2864fbfd3f99b844303b42"
+    },
+    "google-cloud-waf-cost-optimization": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-waf-cost-optimization/SKILL.md",
+      "computedHash": "91374b65de9b05fcfd3253f589594373b153f195e9aef0303a6d29a15cbde906"
+    },
+    "google-cloud-waf-operational-excellence": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-waf-operational-excellence/SKILL.md",
+      "computedHash": "bdc6a9f415f6400fa85e1dcf77d961ea37f5f264eafc23108a297ff5d044d46b"
+    },
+    "google-cloud-waf-performance-optimization": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-waf-performance-optimization/SKILL.md",
+      "computedHash": "89a4947438cff9e1fe7cabb7dd4e639b4c1c70fd2335b64f7fb35501535da624"
+    },
+    "google-cloud-waf-reliability": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-waf-reliability/SKILL.md",
+      "computedHash": "30c24286a8ac8b2281f76b694c85300ac99272b22600c4a199b92c60b047d59e"
+    },
+    "google-cloud-waf-security": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-waf-security/SKILL.md",
+      "computedHash": "2571b2b741265530c46636051029ef88aad59952a1f1ae88c6f0a41db8b39d5f"
+    },
+    "google-cloud-waf-sustainability": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/google-cloud-waf-sustainability/SKILL.md",
+      "computedHash": "7d0a6921cb59d92f19876f037e2106a4cd28f11b65dc25f6441b177f1e819b4f"
+    },
+    "google-safe-browsing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops-and-setup/google-safe-browsing/SKILL.md",
+      "computedHash": "5956d2f0f5d2a39dfe202d77a05bf78c02a94716bbfaa0cf1b8c02066f8872f3"
+    },
+    "goplaces": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/goplaces/SKILL.md",
+      "computedHash": "15562a44b2378e98de9683ca6a4dc45495222843ca854ca9849b0c59ba8ca0ab"
+    },
+    "grill-me": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "f321507f77702a54af1db66549ec1685fc625390d06c57d7949cdcda8eb1b5c7"
+    },
+    "grill-with-docs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "computedHash": "e7ef25bbee50cda2eb7b3a8ef541db0a0396dad7d369f7d14fb610671dd1864b"
+    },
+    "grilling": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "computedHash": "1de9e777a60b184b29412fadacb7bbde8c14bb7037e5c4d9d086c941281d1742"
+    },
+    "helius": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/helius-skills/helius/SKILL.md",
+      "computedHash": "79034dbd3075d9219333d80b1d2c33b959a3e8f70193ace32343e7c83a5c80c9"
+    },
+    "helius-dflow": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/helius-skills/helius-dflow/SKILL.md",
+      "computedHash": "12e99f62b5b8d6b8dff9d12c620a74d531ee761b1ad77e6fac65356467154022"
+    },
+    "helius-jupiter": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/helius-skills/helius-jupiter/SKILL.md",
+      "computedHash": "9673d4ee6737835046a13714f30623f232250559defddbb935f984344149bce0"
+    },
+    "helius-okx": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/helius-skills/helius-okx/SKILL.md",
+      "computedHash": "c5ad1bbcc33cee476283003edf0cb3e90bca41e4fd13491e3dbb69105dd0e724"
+    },
+    "helius-phantom": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/helius-skills/helius-phantom/SKILL.md",
+      "computedHash": "32d830f3016ea85edbcdfcbf291a9694648387a30846efa2fd2130db46a24336"
+    },
+    "himalaya": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/himalaya/SKILL.md",
+      "computedHash": "8f36374b1eed82933a104ffdfa751727263e90dcc0a63f1b587d6fe464ba809e"
+    },
+    "holoscan-install-conda": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/holoscan-install-conda/SKILL.md",
+      "computedHash": "2b8be182db080e50f05fa9c0b5e262265c082c2162cbf86bb5059d0150f13307"
+    },
+    "holoscan-install-container": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/holoscan-install-container/SKILL.md",
+      "computedHash": "d563bd1cc1352f2081a2ef7e5e309e73d95bdd54df43f6871ff52f82daef5bc1"
+    },
+    "holoscan-install-debian": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/holoscan-install-debian/SKILL.md",
+      "computedHash": "8eb0a31668ba072bc949f509c5c97a6e75bd55b898f6ac0b687a52fd0ba597aa"
+    },
+    "holoscan-install-source": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/holoscan-install-source/SKILL.md",
+      "computedHash": "e1e66ca86af8a9342dc7f70e2303988b151c3f47c5d569f8c3c96823ad46891b"
+    },
+    "holoscan-install-wheel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/holoscan-install-wheel/SKILL.md",
+      "computedHash": "9c882af38640e9f61682cf79a314b4e08def4fa7171ccb0316d5f50c7b180137"
+    },
+    "holoscan-setup": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/holoscan-setup/SKILL.md",
+      "computedHash": "01d5167a1e6ed1d5be9e3456af2f35a5bcc21c0c1c097b668350cebb375366bc"
+    },
+    "hsb-app": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/hsb-app/SKILL.md",
+      "computedHash": "5bde746177708ee82babbf9d13e22998f27655c2f61f80b500be41ebe35d2848"
+    },
+    "hsb-flash": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/hsb-flash/SKILL.md",
+      "computedHash": "5f8c56075aa4c1786f7ec0d58c348fc72507d8e039f0f0f82a95d096ca401fa8"
+    },
+    "hsb-setup": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/hsb-setup/SKILL.md",
+      "computedHash": "548fff1d6576af5100deed9d064d5245ce7ce0e9b9737d7c31113423e8df00ab"
+    },
+    "hsb-test": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/hsb-test/SKILL.md",
+      "computedHash": "227796a36f22e3f44bd5003f2617cd31bb0e13c7fc07bf53373e0fbdce00f00c"
+    },
+    "iam-recommendations-fetcher": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/iam-recommendations-fetcher/SKILL.md",
+      "computedHash": "49407100c6783efb8d849bfc0adcf826372cb43722c3040ecc196c0c4d24e8eb"
+    },
+    "imperial": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imperial/SKILL.md",
+      "computedHash": "c22b6b40c068ccb689887969ea89eecd092ab45613b5371a1031c551a336fd12"
+    },
+    "imperial-margin-operations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imperial-margin-operations/SKILL.md",
+      "computedHash": "508fe68f1522d5ef92649e7cdc88b01a13927e570d01f61f20c4d328d7627ca9"
+    },
+    "imperial-portfolio-intel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imperial-portfolio-intel/SKILL.md",
+      "computedHash": "3c5c6a2526b8f3741dd82de311183b19e44aa6efc17ad1ea07f728a5ec838596"
+    },
+    "imperial-position-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imperial-position-management/SKILL.md",
+      "computedHash": "4eba5e6702dc3caeada106ac711abdd0a35cd7f7c9443ab3ffc815e7f5acf2ea"
+    },
+    "imperial-skills-index": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imperial-skills-index/SKILL.md",
+      "computedHash": "4e873e54f759f50903ea5094a1a0767984bb8aaff1d4276e1e572ea9c07b02f7"
+    },
+    "imperial-tpsl-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imperial-tpsl-management/SKILL.md",
+      "computedHash": "1cc5e6f0be5e6a37fc687e83a4fec4021d035ca7a2359d929262b6bf540a3b00"
+    },
+    "implement": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/implement/SKILL.md",
+      "computedHash": "0d51255cab5cf937b8fe41252f00213706e0175ca9607fc00409d29562b5b839"
+    },
+    "improve-animations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/improve-animations/SKILL.md",
+      "computedHash": "32f23d860467841f5b07cef198fb53efc70f2adaaa6144cf1a3434d782aed246"
+    },
+    "improve-codebase-architecture": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "8bf292143ca93b00276a0de0fc5f84f2381f4690c5b0d32e99fa283a072f392f"
+    },
+    "imsg": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/imsg/SKILL.md",
+      "computedHash": "fb33bc2bfb1fe4770568520b6a65bc91e01015aa4e4731896d9937fbb1d9c4fd"
+    },
+    "index-bot": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/index-bot/SKILL.md",
+      "computedHash": "ab7bd1b2d5e3b81e033bba5cff81f9bd5e0d08d0295a3d7b8db959fe8508cc08"
+    },
+    "internal-comms": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/internal-comms/SKILL.md",
+      "computedHash": "0bdc8867452b7ab9ef6167f6b0db2025ce5fb03773d3f85efcef2dfeb9d4976d"
+    },
+    "jetson-build-source": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-build-source/SKILL.md",
+      "computedHash": "156f9c757ac34e2282de8de8580f07792aa6def1671af4292418a53d087fed9d"
+    },
+    "jetson-customize-camera": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-camera/SKILL.md",
+      "computedHash": "119b9c5dfaec623d253bbd740454fa56ce517e1ba842957d59eff3e98924c712"
+    },
+    "jetson-customize-clocks": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-clocks/SKILL.md",
+      "computedHash": "261003ed5996c99c8ea36296b374c05902eaf861207baaaae3e5d32534f64308"
+    },
+    "jetson-customize-fan": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-fan/SKILL.md",
+      "computedHash": "d6f0638b1497972792c8166c6fdc235a36f3c5405c7ad23eb2ca026b08b82e5c"
+    },
+    "jetson-customize-mgbe": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-mgbe/SKILL.md",
+      "computedHash": "3e7cac99ea65a54707c18c9c71eb6ab396290a05e3d0108a19d86df75fe5c069"
+    },
+    "jetson-customize-nvpmodel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-nvpmodel/SKILL.md",
+      "computedHash": "e2a16eb616b08742753ae6471246a403ceb5d017f2352e9b8b569b45b140c2c0"
+    },
+    "jetson-customize-pcie": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-pcie/SKILL.md",
+      "computedHash": "2cbb6a724b3d6233a39d327159a6447a69839a3fbcc38f6992024921d923d9b4"
+    },
+    "jetson-customize-pinmux": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-pinmux/SKILL.md",
+      "computedHash": "c2fd39d6934b6ee4338878668755fa2e5655b7bcee4fa99ea083e1eaf6afee7e"
+    },
+    "jetson-customize-uphy": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-uphy/SKILL.md",
+      "computedHash": "01879c64b5fa98b52520cc0492555a458a63320f37ada0e0d11ec635ecccf546"
+    },
+    "jetson-customize-usb": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-customize-usb/SKILL.md",
+      "computedHash": "94c8d1945ece815ef25e4545fb166007af3f896df3f8a1940e758b6b6b2e6180"
+    },
+    "jetson-derive-carrier": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-derive-carrier/SKILL.md",
+      "computedHash": "94451062d1f9cf4a5c4a3de40ace79757fe369f79b39ae1044699448168701f2"
+    },
+    "jetson-diagnostic": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-diagnostic/SKILL.md",
+      "computedHash": "052d611c20729a3290b5bac1a420790c3389b72e04d576348c40387cd41b2881"
+    },
+    "jetson-download-bsp": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-download-bsp/SKILL.md",
+      "computedHash": "e6186a9d7e91dc698eded46bb37d72d39337e7a9a76bc5dadd98c5fa2e63e91c"
+    },
+    "jetson-flash-image": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-flash-image/SKILL.md",
+      "computedHash": "9daf2b1a8aacd9840eca3ecbe057461a18cca3d7cbe5063c84873af065d39c6f"
+    },
+    "jetson-generate-kb": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-generate-kb/SKILL.md",
+      "computedHash": "8dbb280c744ed1f74b291c9534fb4ae67a61921d4523f0654cfc65a56e63d3a7"
+    },
+    "jetson-headless-mode": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-headless-mode/SKILL.md",
+      "computedHash": "964a9890cd021984c981ba3bc7ca7ee7902e8490119568add5292424650249bc"
+    },
+    "jetson-inference-mem-tune": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-inference-mem-tune/SKILL.md",
+      "computedHash": "7213ba09a7ac0201d6a024959d2a70b657303c1ca594a17cbeae9a068dc391f8"
+    },
+    "jetson-init-image": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-init-image/SKILL.md",
+      "computedHash": "c4eda053917545d4c983f39d0ca9ca6a0af3d672ddb84bdca56579e5d6777d31"
+    },
+    "jetson-init-source": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-init-source/SKILL.md",
+      "computedHash": "5d81b3c3fc79f7fb8afa14918ab593a5f6e41707b438bf10d9ec63df90d52dbc"
+    },
+    "jetson-init-target": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-init-target/SKILL.md",
+      "computedHash": "8cb68fa07edacb78cc59d9bdb4f00b500201aac44f7bdbf7bf16f8d759d23dc6"
+    },
+    "jetson-link-docs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-link-docs/SKILL.md",
+      "computedHash": "5a86557efdacef21edcd0a58b47b81e109a98b8f9030575e47205f7de502bee6"
+    },
+    "jetson-llm-benchmark": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-llm-benchmark/SKILL.md",
+      "computedHash": "34ed931c3223f3700f70b920772fc289531467305c0e595640d850cdf874c95f"
+    },
+    "jetson-llm-serve": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-llm-serve/SKILL.md",
+      "computedHash": "ed042db66d759433c64f8d8c20d72ce75844c811ca866b788e899e3e74d3220c"
+    },
+    "jetson-memory-audit": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-memory-audit/SKILL.md",
+      "computedHash": "99bd831474911d9d06825e4578aa5dec2bbf3e7ad26083fbb42105ab417e8509"
+    },
+    "jetson-optimize-memory": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-optimize-memory/SKILL.md",
+      "computedHash": "b74c08295b645839ef83d8a0a4b8fe601b1818ba90fb97475fedabbe1d144684"
+    },
+    "jetson-package": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-package/SKILL.md",
+      "computedHash": "0397f5f2406932078c585b2123af4066d635fb69e54ec7428487291db840ddc5"
+    },
+    "jetson-print-bsp-info": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-print-bsp-info/SKILL.md",
+      "computedHash": "51b24ea81b606689306eab5156c35df8b1d619435258a3cfd47a3fa8d1460c9b"
+    },
+    "jetson-print-device-info": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-print-device-info/SKILL.md",
+      "computedHash": "e3a2e43de147888efd42562b9e6e0b8676c7752905c280ac132941aca0756ffb"
+    },
+    "jetson-promote-image": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-promote-image/SKILL.md",
+      "computedHash": "c55b4b7d7ba7f1dc57346a3c34bfaf62e89e2fc99c0c7d63c068d62d877acec5"
+    },
+    "jetson-quick-start": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-quick-start/SKILL.md",
+      "computedHash": "238eab0b0cbf90f3bf4e2eedb182591bed3494a2be4bd9e5d6d8e9604b66c412"
+    },
+    "jetson-set-target": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-set-target/SKILL.md",
+      "computedHash": "045853c5565dfdfcbcc6e7e3ab6bfcfa5e8ea07f168a251a45bc9f0960134ab9"
+    },
+    "jetson-speculative-decoding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-speculative-decoding/SKILL.md",
+      "computedHash": "16eb46a7a5bcd5c62cfe91c8ec3f0f1d742fd167b46c0c85b96a415c7696a69c"
+    },
+    "jetson-validate-image": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/jetson-validate-image/SKILL.md",
+      "computedHash": "27f872359cfdbd63368bd2e7c10162670997b9a0cb55fe7df86cbc3c02f4c97b"
+    },
+    "launch-nemo-rl": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/launch-nemo-rl/SKILL.md",
+      "computedHash": "70e48922a13b7410225f4414b1c0ebccf4fdfc7b68c3ad54b123206e80398813"
+    },
+    "level-up": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/thinking-and-docs/level-up/SKILL.md",
+      "computedHash": "9b9f05389a3fb4b62ae92c7f96f9767f14c9d319343e83f559e3e86563df781d"
+    },
+    "liquidity-planner": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/liquidity-planner/SKILL.md",
+      "computedHash": "42facfb96be928b35effd960093b1b05ee34c9e5254ed3a2086bf25b4d379cae"
+    },
+    "local-places": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/local-places/SKILL.md",
+      "computedHash": "a2c778496a5ebad214c2ac23e49a6dc370925b1141d25a02342197249f8dd2ea"
+    },
+    "loop-me": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/loop-me/SKILL.md",
+      "computedHash": "b3306d9b5af2e9ed341ec290ea97898205f27fb3131b16b8535549b8c90343f8"
+    },
+    "lp-integration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/lp-integration/SKILL.md",
+      "computedHash": "b657f29d30d345444d71aa04d15698804af7d41177593121d1e0168287861435"
+    },
+    "magicblock": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/magicblock/SKILL.md",
+      "computedHash": "9daf522b00e45d1548447cab81ae2ee4f1599fdfb8ec217b0c4078db913e09d0"
+    },
+    "mcore-create-issue": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/mcore-create-issue/SKILL.md",
+      "computedHash": "a36952f4b0374171ed759369c4de80d94012bc2a5276edec0e5e9fe2a65908e8"
+    },
+    "mcore-linting-and-formatting": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/mcore-linting-and-formatting/SKILL.md",
+      "computedHash": "a580a3746a52de7ffc37c5d9d67b6753d45f9d7731d6e60a507cd78378ac1d36"
+    },
+    "mcore-run-on-slurm": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/mcore-run-on-slurm/SKILL.md",
+      "computedHash": "c936c70ae3b51867342066ec779460edf21d545d570e67d5d0dba43750b9a04f"
+    },
+    "mcore-split-pr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/mcore-split-pr/SKILL.md",
+      "computedHash": "198cc68f0e7f6f9f037ee0f81e262f5fbe01f45da3ffb7f47079b500dc958361"
+    },
+    "mcore-testing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/mcore-testing/SKILL.md",
+      "computedHash": "bebb87cce7fac651f209b36588f0e3a3acbe5d5d9274f2a2f9d63b1697c43cf4"
+    },
+    "mcp-builder": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/mcp-builder/SKILL.md",
+      "computedHash": "826e46adf81e1372282e205c34e1a2ee876e72148007726e4a2512599d2fef7b"
+    },
+    "mcporter": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/mcporter/SKILL.md",
+      "computedHash": "c6cb6838f2c2836c3ce9acec5a54ee3c6cf3adbf68db62dae41fecbbe068aa16"
+    },
+    "migrate-to-shoehorn": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/migrate-to-shoehorn/SKILL.md",
+      "computedHash": "8f1a623a019abca0ab5e22e8deaae375829368cc1344016010201cf650331d33"
+    },
+    "model-usage": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/model-usage/SKILL.md",
+      "computedHash": "a2cf61d31e6aeca8165c14c4bcab711d91236512e7a8af3960aeef631099b5dd"
+    },
+    "nano-banana-pro": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nano-banana-pro/SKILL.md",
+      "computedHash": "fc919d73154130b623eb1f688f3a8ba84f5f9ae28233c72f1ff24d0301510988"
+    },
+    "nano-pdf": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nano-pdf/SKILL.md",
+      "computedHash": "105edacb48d3b706309389a7ecc8ae64c0c965ce95e09bfab56c5e0630f972af"
+    },
+    "nemo-automodel-distributed-training": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-automodel-distributed-training/SKILL.md",
+      "computedHash": "2140260f7c29ad9d306122ff205ffbe10b498bb9941f67b692860e934b7f115e"
+    },
+    "nemo-automodel-launcher-config": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-automodel-launcher-config/SKILL.md",
+      "computedHash": "352ed7983536ade4c4c4afea70e2c6411191a25e11652c5e9040fd0b38cca632"
+    },
+    "nemo-automodel-model-onboarding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-automodel-model-onboarding/SKILL.md",
+      "computedHash": "d199c5a66c9376b023db6faa4bff8b851847eea3a7ff6be2e01f2e0120485fa4"
+    },
+    "nemo-automodel-recipe-development": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-automodel-recipe-development/SKILL.md",
+      "computedHash": "bf4d62123fc667e57568107e458b6a0554fbbe9f9f005f50cb661dfe4748536f"
+    },
+    "nemo-data-designer-plugin": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-data-designer-plugin/SKILL.md",
+      "computedHash": "2853b9e5a5ad1165c5cd541d5262adb39edbedf0a8ae1a27b9f23cf3921270d2"
+    },
+    "nemo-evaluator-plugin": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-evaluator-plugin/SKILL.md",
+      "computedHash": "b44cbb9008b57819b469f1b5dcfd2b727defd57a4fa111617c94e50448edd9fd"
+    },
+    "nemo-mbridge-mlm-bridge-training": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-mlm-bridge-training/SKILL.md",
+      "computedHash": "72416c98d7c95d58897a0bb9aae9334e6653b83f2912386da46038a2ae8ba819"
+    },
+    "nemo-mbridge-multi-node-slurm": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-multi-node-slurm/SKILL.md",
+      "computedHash": "e752275d8c6b27c8df094345be7a59ad0a23247e258121529c57bef18f69e93a"
+    },
+    "nemo-mbridge-perf-activation-recompute": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-activation-recompute/SKILL.md",
+      "computedHash": "cda9fe199726cd9c076b9daeafcd99c380d7e298c4c0bca7e3f9fdcd3842f046"
+    },
+    "nemo-mbridge-perf-cpu-offloading": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-cpu-offloading/SKILL.md",
+      "computedHash": "6c93dec4ef2b5f4154144519ebaeab8372d430ece492502ceeee29f0b7ae8389"
+    },
+    "nemo-mbridge-perf-cuda-graphs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-cuda-graphs/SKILL.md",
+      "computedHash": "9f9af8857014de03595242bf41e087f09db19007262cb3fc4fc90597c00b9fdc"
+    },
+    "nemo-mbridge-perf-expert-parallel-overlap": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md",
+      "computedHash": "0115d73afe9bdc4e0fef7a39bbf894508fcee9b55dd892f0996abfc3bf54c842"
+    },
+    "nemo-mbridge-perf-hierarchical-context-parallel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
+      "computedHash": "4075dbfdce03caeb82c6b11a54c0f8a0e646939986002264efb71075dbed2179"
+    },
+    "nemo-mbridge-perf-megatron-fsdp": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
+      "computedHash": "6b1daaa42e42edf7c9a4e73602ee41f7c7c88d540ff4717f6632ff2dce90d984"
+    },
+    "nemo-mbridge-perf-memory-tuning": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-memory-tuning/SKILL.md",
+      "computedHash": "c967f6dc80a510099e409df39cdf140529537796835f313694ed86c0e446fd8c"
+    },
+    "nemo-mbridge-perf-moe-comm-overlap": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-moe-comm-overlap/SKILL.md",
+      "computedHash": "3137b68086651289bf9a89fece4b375ecd088e65e332c53c1f7c2d2bfcf9581d"
+    },
+    "nemo-mbridge-perf-moe-dispatcher-selection": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
+      "computedHash": "6944034b21d03d57742ee3cd4bb751b7c0fa1016f3c936550cd66af8eaf6851c"
+    },
+    "nemo-mbridge-perf-moe-hardware-configs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
+      "computedHash": "0fbc1da8d358d253ae021e6decc541f938945031a044fc951e7c5799278ab834"
+    },
+    "nemo-mbridge-perf-moe-long-context": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-moe-long-context/SKILL.md",
+      "computedHash": "590f4653e7410a65913e60c66aa3e63298e9fcf501fd00a3db0373735f2a6da9"
+    },
+    "nemo-mbridge-perf-moe-optimization-workflow": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md",
+      "computedHash": "d941d846836170d0af1604e4fa7e5584452ddf65c8060774ce4a04b09705116b"
+    },
+    "nemo-mbridge-perf-moe-vlm-training": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-moe-vlm-training/SKILL.md",
+      "computedHash": "939d7cccf05d48080a28dd0d33145b15f94f8fef4191471ef759f9ebcc7e4b32"
+    },
+    "nemo-mbridge-perf-parallelism-strategies": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-parallelism-strategies/SKILL.md",
+      "computedHash": "72257f19e6d20682ddd761d1d7965466c8c34b0415217718c02ac4a08de67ca7"
+    },
+    "nemo-mbridge-perf-sequence-packing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-sequence-packing/SKILL.md",
+      "computedHash": "0ba537508c91887732f24773905a5dd6b3446dcdc09958e85d379184ae795fa4"
+    },
+    "nemo-mbridge-perf-tp-dp-comm-overlap": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
+      "computedHash": "83be74416eda840c03b0373d3c07d5c7a330d63e8d188a6e4890c2118224677f"
+    },
+    "nemo-mbridge-recipe-recommender": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-recipe-recommender/SKILL.md",
+      "computedHash": "fb0f7599b34d37d77e73b6da598d3d2215484c3e47688dfb72ac4b9276b1ab61"
+    },
+    "nemo-mbridge-resiliency": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-mbridge-resiliency/SKILL.md",
+      "computedHash": "4bbaa827752ade476f17a89f9c68527c913672c39a56ec7d47926ff491a2128e"
+    },
+    "nemo-retriever": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-retriever/SKILL.md",
+      "computedHash": "928da8c720b2eb54054b15676c9217ccc162b1827c8b89c6695e37adb629c86d"
+    },
+    "nemo-rl-auto-research": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-rl-auto-research/SKILL.md",
+      "computedHash": "ea45e4cff33d2d7ff0f9493cc107011670de4c660e39317a47d0d561f8757769"
+    },
+    "nemo-rl-brev-etiquette": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-rl-brev-etiquette/SKILL.md",
+      "computedHash": "eb109ae913352bef976d3a2f061be232f73fd17b135a8030ed12cae4f9ed7c3a"
+    },
+    "nemo-rl-docs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-rl-docs/SKILL.md",
+      "computedHash": "fffc3da66e32d251a916a24d7e0a911ec350ddb8e15d3e94c59cb336e8df121b"
+    },
+    "nemo-rl-session-memory": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemo-rl-session-memory/SKILL.md",
+      "computedHash": "227fc965ec35b69731af6e8a967de5d7a75d87d2327cffcb903f032c78ac4247"
+    },
+    "nemoclaw-user-guide": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemoclaw-user-guide/SKILL.md",
+      "computedHash": "b0d0320b1126bc68b973280bd42153525bf99c21f0e57fd665ed0efa8ddad6b6"
+    },
+    "nemotron-customize": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemotron-customize/SKILL.md",
+      "computedHash": "16987fa38e2f8a4e7540a0de63e419c3f341f0b9203921b786b8caf94061d95c"
+    },
+    "nemotron-policy-generator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemotron-policy-generator/SKILL.md",
+      "computedHash": "052f54e1bbef8ed61e232de8b27502f0af457b0a097825c53e80070eda3d059b"
+    },
+    "nemotron-retrieval-recipes": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemotron-retrieval-recipes/SKILL.md",
+      "computedHash": "709882b463997389ad96a7d59c8a8be93c621b1f1e690ddce41daae54a2a5239"
+    },
+    "nemotron-speech": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nemotron-speech/SKILL.md",
+      "computedHash": "c26f0cbe1e3faae0d673c02473a9546efe60307584c9a9dc5a9ebec990accf09"
+    },
+    "notion": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/notion/SKILL.md",
+      "computedHash": "2c61e9cab3618df39b364777cf9ab0d3dca37fde961792093d2879f9e477e3d7"
+    },
+    "nv-generate-ct-rflow": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-generate-ct-rflow/SKILL.md",
+      "computedHash": "5123a49afa0e43f95d89d469ec4b1245ebd088695e5aedc56682f779a49e4b26"
+    },
+    "nv-generate-mr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-generate-mr/SKILL.md",
+      "computedHash": "2a56c39a95e8ebc76d729184cb1166d3119e1823a8e0f5d269d0b9ffb2aa5262"
+    },
+    "nv-generate-mr-brain": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-generate-mr-brain/SKILL.md",
+      "computedHash": "edc7ede8496c72231e93a76790c04d50595fc6459d558ecd9311aa01a6081fb8"
+    },
+    "nv-generate-mr-brain-finetune": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-generate-mr-brain-finetune/SKILL.md",
+      "computedHash": "8085188bc0e5995479cea93e362876cc280a97641c6c33532bf456a4176fb7c6"
+    },
+    "nv-generate-vae-finetune": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-generate-vae-finetune/SKILL.md",
+      "computedHash": "c3b16e960886f44715833c4397bbddf9faa3d9c96c513fdf376861a4828e1166"
+    },
+    "nv-reason-cxr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-reason-cxr/SKILL.md",
+      "computedHash": "e638042f69a25484a16495dfcaaf1bbeac9618f1d97e33e2eb2a09eeb7dfd097"
+    },
+    "nv-segment-ct": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-segment-ct/SKILL.md",
+      "computedHash": "dab44aebfe66a36f0635e1deca2e3645edbd229cb89486f2859e41667d4c0bc1"
+    },
+    "nv-segment-ct-finetune": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-segment-ct-finetune/SKILL.md",
+      "computedHash": "b4620bd698d7de9eedaa34bba2bee2b2340ca3b7a3d6a36b31143c5839e8b77a"
+    },
+    "nv-segment-ctmr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/nv-segment-ctmr/SKILL.md",
+      "computedHash": "71612b72750b3d3ba2a3495753f29c4d3f21c0757f7c60534d28865094e1c6c6"
+    },
+    "obsidian": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/obsidian/SKILL.md",
+      "computedHash": "9bff6d9d6d93fb1885aeaf2dd7ef2a8dc15730c09561fdde69265b81cb7b695e"
+    },
+    "obsidian-vault": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/personal/obsidian-vault/SKILL.md",
+      "computedHash": "960437c7c2febc15cf9d49964f0c8bd889d90a56e81b6eaa33f3ac5b594291c3"
+    },
+    "omniverse-cad-to-simready": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/omniverse-cad-to-simready/SKILL.md",
+      "computedHash": "b45c3ce9adf58a029e959e2062cf9bd6611d670493a90609fd5f9114a5f792a2"
+    },
+    "omniverse-realtime-viewer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/omniverse-realtime-viewer/SKILL.md",
+      "computedHash": "24db0b267ac7d2dea774639ac0b02d51d8fed980518485b12d674d4c105f0e17"
+    },
+    "omniverse-usd-performance-tuning": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/omniverse-usd-performance-tuning/SKILL.md",
+      "computedHash": "ee3b82732b74cac20145b4e33a6b2a49510457dc1e64032273277e2320c1c32b"
+    },
+    "online-shopping": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/online-shopping/SKILL.md",
+      "computedHash": "7c661d230d518c10c9f6a14275f55aab4dca4f712d3a7babfbb92bd8dd8cca6b"
+    },
+    "openai-image-gen": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openai-image-gen/SKILL.md",
+      "computedHash": "1aef34280a11a3e6cde0037a1493ec171bacf37798f4d40d4576dc03447f8639"
+    },
+    "openai-whisper": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openai-whisper/SKILL.md",
+      "computedHash": "ca33b7f48adb2282a3b0bf21ae83bc6fc6ad0dd51d65f766b30883040912a727"
+    },
+    "openai-whisper-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openai-whisper-api/SKILL.md",
+      "computedHash": "bce411a8167d597833746c186b8fa5cc1ddcf3c9db38c93d5e4a7b580269ee33"
+    },
+    "openhue": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openhue/SKILL.md",
+      "computedHash": "98f1f6db61afaf0609faa1ace3a6cad1991130ab3d9815ff08175f62bcb6bfc9"
+    },
+    "openrouter-agent-migration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openrouter-agent-migration/SKILL.md",
+      "computedHash": "3f72c702ede9cdd4d0eba2368b269f5c280535675232e7cdf8479c84be8e0a65"
+    },
+    "openrouter-images": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openrouter-images/SKILL.md",
+      "computedHash": "f9139464cd75ea0a1718dbef36fb8ac11de2750d89ab6380c47be850695ce26c"
+    },
+    "openrouter-models": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openrouter-models/SKILL.md",
+      "computedHash": "2faf39d2f6102844b4e65052535a6e93fb72b595edcf682394ed989b550650cd"
+    },
+    "openrouter-oauth": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openrouter-oauth/SKILL.md",
+      "computedHash": "525cfa4a28676ef0bde300b5838826f2afc3394deb3c93043c645d4690a35138"
+    },
+    "openrouter-typescript-sdk": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/openrouter-typescript-sdk/SKILL.md",
+      "computedHash": "ba59db006493abcba9c30bde35f5e6740fafb08c490ec81d0184febde29a5861"
+    },
+    "oracle": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/oracle/SKILL.md",
+      "computedHash": "608eae527771f3a55fa827663f42f579919fdc09838123b3a68bdb693f11dc03"
+    },
+    "ordercli": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ordercli/SKILL.md",
+      "computedHash": "0ce55fdf8b6bba9fa4bc1056ddebf4c130a03ad8e2327ea83878130dea86455d"
+    },
+    "pay": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pay/SKILL.md",
+      "computedHash": "ab360f7398ee4c1a1f404cb4795921a49855e72e356099f91a7390b3d27f71a3"
+    },
+    "pay-with-any-token": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pay-with-any-token/SKILL.md",
+      "computedHash": "6679a6a1738052bb8a26e02863f14edd28367e4468d54056faae014505d0ea2e"
+    },
+    "pay-with-app": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pay-with-app/SKILL.md",
+      "computedHash": "7aae9175732c4a4ca1ed4fca020e60f59648d1126c7ef2c3ec6982dd51b3c130"
+    },
+    "pdf": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/pdf/SKILL.md",
+      "computedHash": "cfbc539377088ca7e44a813b30c306327385bbd973cd7a721e1743f60837dd62"
+    },
+    "peekaboo": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/peekaboo/SKILL.md",
+      "computedHash": "49c2b12b5169394e3c0a1c635ce3f572ba8f6b66855ac77124c33d6de93b332e"
+    },
+    "phantom-wallet-mcp": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/phantom-wallet-mcp/SKILL.md",
+      "computedHash": "ab58a9ca8b91a75a4aa701c3972f2251292d42af18c5f3955b5d6bb5fd87f8a5"
+    },
+    "physical-ai-defect-image-generation": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/physical-ai-defect-image-generation/SKILL.md",
+      "computedHash": "048b0fd2ccd7eabca8803fe8c31f866fdb234f99d9bb3d17e86ae5c25712e98f"
+    },
+    "physical-ai-infrastructure-setup-and-resilient-scaling": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
+      "computedHash": "f0c5dc290bce7085be5592d049677d43c381d79e8fe50ea3460ee81167463038"
+    },
+    "physical-ai-neural-reconstruction": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/physical-ai-neural-reconstruction/SKILL.md",
+      "computedHash": "5481ac1ad1976fe3b2b888f03a1aca20823986f9f0f4512aa8f0fd7ac5247b5e"
+    },
+    "physical-ai-people-attribute-search": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/physical-ai-people-attribute-search/SKILL.md",
+      "computedHash": "571362890a04770a9455906e4fed21ad98a11e30db32cc0fb993103f32fa547f"
+    },
+    "physical-ai-video-data-augmentation": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/physical-ai-video-data-augmentation/SKILL.md",
+      "computedHash": "bcc03f9b6621e10b4b497fb5ca2580d037f747cf76d674d616303749d54dd8e2"
+    },
+    "physicsnemo-discover": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/physicsnemo-discover/SKILL.md",
+      "computedHash": "499e26cbaa07458a15d29a500facb2c836bcd57efda4fcbf7cbde4c6738b8d1c"
+    },
+    "pi-custom-model": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops-and-setup/pi-custom-model/SKILL.md",
+      "computedHash": "9e2d05fdbcf18b757233943796f0fecca175dfce3622568ec5dc8461ea347f7c"
+    },
+    "pi-web-search": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/pi-web-search/SKILL.md",
+      "computedHash": "ca5265487afd0ad8939216095c0c7a6e263f94e648e8cd9593a34ebcaa4a860b"
+    },
+    "pons-launch": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pons-launch/SKILL.md",
+      "computedHash": "1042cb5ee9947fe055bdc78191e096931822939e4acb718d11e55ea54a89d9d7"
+    },
+    "posthog-cheshire": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/posthog-cheshire/SKILL.md",
+      "computedHash": "ef3bb758060efe04902c117e5cf25d427ba9a974c0da9e978b4d61d80fc7b997"
+    },
+    "pptx": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/pptx/SKILL.md",
+      "computedHash": "6b8b859d26f93aa059c9870d1ab76b44ab69e3d6757ce4a03cc94cb760888073"
+    },
+    "productivity-handoff": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "computedHash": "5c0019f2c41c99817a581d7dd29533632940a522a233520bca935c1bb6857f45"
+    },
+    "productivity-teach": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "computedHash": "7e5668e9adceaeea98e73bd0bedba2f274805f293d33a27e1603fb945fd9c2cf"
+    },
+    "prompt-me": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/thinking-and-docs/prompt-me/SKILL.md",
+      "computedHash": "41cd8d1c0e8e749e077adbc48cd0143a7e697ce857d2136a8996ad0bc841c1ee"
+    },
+    "prototype": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "computedHash": "86dc9537ca578d75866329effa07398f30e69d6c7e906013ce3438053646c601"
+    },
+    "pump-admin-ops": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-admin-ops/SKILL.md",
+      "computedHash": "691241c9df394c1630727b8466c80a2a90dad3d7d11b3506e83434740dd51649"
+    },
+    "pump-ai-agents": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-ai-agents/SKILL.md",
+      "computedHash": "778fd30ec4dd506064659ad6fc2e92600ef0bd3fb1bed4955abced16483f9a8d"
+    },
+    "pump-bonding-curve": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-bonding-curve/SKILL.md",
+      "computedHash": "113342ff37185faf03b549df0c965007acbc170fc5dd3187ac8cfafbb7249615"
+    },
+    "pump-build-release": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-build-release/SKILL.md",
+      "computedHash": "a204f1bc83782cbf681c8e1644d471bbf2d4616f5f70a7011019c3d68971cf0e"
+    },
+    "pump-fee-sharing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-fee-sharing/SKILL.md",
+      "computedHash": "f3946bd32a38173350d4a68c4705ef36c0f5874ae38286cc6af65543e8abe8de"
+    },
+    "pump-fee-system": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-fee-system/SKILL.md",
+      "computedHash": "35a951a15eb9bdc1b6871b4b33997289919288ef2ddb9707d30de3c8e630e706"
+    },
+    "pump-mcp-server": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-mcp-server/SKILL.md",
+      "computedHash": "2bd25cfc83a7b56201c5aa7ee875605ac6652825b2103e7d166feab27f8c08da"
+    },
+    "pump-rust-vanity": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-rust-vanity/SKILL.md",
+      "computedHash": "1a0d20dba91f7c7ee43f9003beca6074462ad2f3a1e44e7fe3d9684f918194e7"
+    },
+    "pump-shell-scripts": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-shell-scripts/SKILL.md",
+      "computedHash": "2e20e07986f30c17bbbec089ea857684d9e639d48faccb76af62cc8771aa26b7"
+    },
+    "pump-solana-architecture": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-solana-architecture/SKILL.md",
+      "computedHash": "38eefa79d31fe1dbb78ddc3cca4b6f86ccceb9984da72ada991afbb20c5e88d2"
+    },
+    "pump-solana-wallet": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-solana-wallet/SKILL.md",
+      "computedHash": "dfe6f8e77b933eb522a555ae55b1fa563c268748cdb3c1504916e6cca03e0456"
+    },
+    "pump-testing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-testing/SKILL.md",
+      "computedHash": "e5752b18dda8db99f9c597e4531d6992f2751c5e5113b0d3bc27c22d63c18273"
+    },
+    "pump-token-incentives": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-token-incentives/SKILL.md",
+      "computedHash": "672c40a845ec3ffcea970768ddd54d8a20f1c641030961246967d92e188cad30"
+    },
+    "pump-token-lifecycle": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-token-lifecycle/SKILL.md",
+      "computedHash": "aab149fe5d7047b93bc674e13974facc4a8b74643b04cb30a0f119305b692b1a"
+    },
+    "pump-ts-vanity": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pump-ts-vanity/SKILL.md",
+      "computedHash": "ceec8276aebf1b5bdec01fc2ca22c14310281084ac37adb4b6d1254149e6407b"
+    },
+    "pumpfun": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pumpfun/SKILL.md",
+      "computedHash": "ca8b3f900d7d7980c1da3fb95395b3ddd83c65b58c213ddb112aa764689e252e"
+    },
+    "pumpfun-analytics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pumpfun-analytics/SKILL.md",
+      "computedHash": "04fb69910b6dbb75b4b9db5b278d6b0417ec11f00fe9997b1d8b075ed9116f01"
+    },
+    "pumpfun-fees": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pumpfun-fees/SKILL.md",
+      "computedHash": "ae05d6de908c415a4cc2c11ea8a3079ddd7c20b618517503826459e562b8243a"
+    },
+    "pumpfun-launcher": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pumpfun-launcher/SKILL.md",
+      "computedHash": "098f5992f9a18852b22a457328785a5cea21ae634b0a289d5583c4f48f6da6d7"
+    },
+    "pumpfun-trading": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pumpfun-trading/SKILL.md",
+      "computedHash": "a28d934ddadf018421b914db2fc81317274e9747faf47a811953110f9d5527b1"
+    },
+    "push-skill-to-github": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-authoring/push-skill-to-github/SKILL.md",
+      "computedHash": "dd949d0ec0fdd2893e4a10f2e209e81bf63d1ff2d13662fd10399c32b6ba2000"
+    },
+    "qa": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/deprecated/qa/SKILL.md",
+      "computedHash": "20c63e29b268b1f0762cff524b5e321d5e1a773b4f61b90d84811b755948a66c"
+    },
+    "qedgen": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-formal-verification/SKILL.md",
+      "computedHash": "915ae00fb2e4a094a061d786d702ef511e8990770d1a9452dcf9b38e2cb6ebed"
+    },
+    "rag-blueprint": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/rag-blueprint/SKILL.md",
+      "computedHash": "5c057a857193fdd137a8f040cfb95cf033c74fbc27eb5346c5255a5b34e1459b"
+    },
+    "rag-eval": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/rag-eval/SKILL.md",
+      "computedHash": "5e11b2d28098f4504c60501dba2b7c4d916b413cfbc9d4b0d1efa13fe1f0f8b3"
+    },
+    "rag-perf": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/rag-perf/SKILL.md",
+      "computedHash": "2cefe6f1fe560333a15a9a0eb0b0758301fa29cc84788f72d63a1c952e4b63a4"
+    },
+    "read-all-adrs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/thinking-and-docs/read-all-adrs/SKILL.md",
+      "computedHash": "93b7d2ccb2ab3814d60022d1e75983af4b5bee063c5def5ae56eed70bb143c95"
+    },
+    "request-refactor-plan": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/deprecated/request-refactor-plan/SKILL.md",
+      "computedHash": "176cf1d0c4dc4fc4d958c4bc4ed67f222f2656bda2f3f15e3a3e98b2e5edaf2f"
+    },
+    "research": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/research/SKILL.md",
+      "computedHash": "87d17f5103899fbe179b552a85485d50f2316ca5b3128f5716af7d88817533e1"
+    },
+    "research-prompt": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/research-prompt/SKILL.md",
+      "computedHash": "ff8f305a18e7431b37f79b108b85e4092b4f7d751351f3cc3ce80de8cf6b7c9f"
+    },
+    "resolving-merge-conflicts": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/resolving-merge-conflicts/SKILL.md",
+      "computedHash": "bff6e06cec85897477759ed052410450aa91057644f5b70d888e26bc8b348847"
+    },
+    "review-animations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/review-animations/SKILL.md",
+      "computedHash": "ca04aaa0a815f05e0910ded8fedbfbdfe0acdec8f52dfbb88277890070d134d4"
+    },
+    "rh-bonded-launch": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/rh-bonded-launch/SKILL.md",
+      "computedHash": "869fc8bd63307095e871ed71f1d3226f3f8b9571d3f2226c109637de4daebf9f"
+    },
+    "rh-crypto-agent": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/rh-crypto-agent/SKILL.md",
+      "computedHash": "1a1fc7bebd95e29a03be4cef2914fe243896b27e8d30e4b6ce73885fc9ed99ec"
+    },
+    "rh-launchpad-v3": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/rh-launchpad-v3/SKILL.md",
+      "computedHash": "3c3eca578f94271d937eb0dd20a43f707a770a605463154b04dd47bd1688c0ab"
+    },
+    "robinhood-agent-forge": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/robinhood-agent-forge/SKILL.md",
+      "computedHash": "38d157d60c066f154f80d2e4177b854d79802d3b1f66cd36fcd18230563cdf71"
+    },
+    "run-deep-swe": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration/run-deep-swe/SKILL.md",
+      "computedHash": "cf72db2ee9dc42d29eb8e1903ffb18a4d2607ab6c2dd9d6088e712d8a7677340"
+    },
+    "sag": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sag/SKILL.md",
+      "computedHash": "863480ac58d66d4ca9fe8298fdb9928ee6d01e8342bb6d503b394093882b0d26"
+    },
+    "sandbox-sdk": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sandbox-sdk/SKILL.md",
+      "computedHash": "e44cceebe7e47d815034027c303315139d35c1d92a3ee287dc6d3e9a02f0667b"
+    },
+    "scaffold-exercises": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/scaffold-exercises/SKILL.md",
+      "computedHash": "486d60a7e984b76850bd22b3b58b98d0063a3b9b3acf319e4d5a37bf1283ea02"
+    },
+    "session-logs": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/session-logs/SKILL.md",
+      "computedHash": "5caac4a7d194ac0c8c2502cc5b70d7973cba011a6f8e388af9f97b6dc279648b"
+    },
+    "setup-help": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops-and-setup/setup-help/SKILL.md",
+      "computedHash": "915247db10c7759eca0660bed6bd2d43f28d8f02d9b568d894e79cf8c11b1009"
+    },
+    "setup-matt-pocock-skills": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "computedHash": "4850d7286f7176178963ff53aeb928b241854785a0d8b5d8fe6d285190188651"
+    },
+    "setup-pre-commit": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/setup-pre-commit/SKILL.md",
+      "computedHash": "f9aeedf0a1f560ec465c3939c54434c2d949ac8b958a0493db52216f688a0366"
+    },
+    "setup-ts-deep-modules": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "computedHash": "609aee622bcb0f517b956a42cc9103ae7d76ecaab09fa0abdb54ad178b583198"
+    },
+    "shadcn": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "ff49582606ad79a9904627117c25c400f82c2c6424b3b81c0bb7d9781d77ae36"
+    },
+    "sherpa-onnx-tts": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sherpa-onnx-tts/SKILL.md",
+      "computedHash": "c196b7cb017db60a9a9872df1635106505c7caf09b1cfe1ec46405d64b882ec2"
+    },
+    "short": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/thinking-and-docs/short/SKILL.md",
+      "computedHash": "aa4874783a7845f9100e2055c529d2737dbdc297619c023ea0020137aab37797"
+    },
+    "skill-card-generator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/skill-card-generator/SKILL.md",
+      "computedHash": "c877be756e2fb1a1d488ded7f437942416f4a77f78962e1d89a155b6d310a87f"
+    },
+    "skill-creator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "computedHash": "e70a4199aa6ed01752696ccedaa8b7df9d420a7d3d8cb55d138e620e3873f807"
+    },
+    "skillhub-onchain": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skillhub-onchain/SKILL.md",
+      "computedHash": "fa73b678e326d007d2959ba0cc150a7e03078ee5b2ecedad6d55600957725fd9"
+    },
+    "skills-store": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skills-store/SKILL.md",
+      "computedHash": "ab94d3d2e4ab1545268614b0cb52b7f0b97e13707d16a376b81e0628570a0ac7"
+    },
+    "slack": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/slack/SKILL.md",
+      "computedHash": "d83501824dbf37cdb17efd13f911bf3e42f1b172bcce5f217a77ee05aa09ef36"
+    },
+    "slack-gif-creator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/slack-gif-creator/SKILL.md",
+      "computedHash": "fab4fcfcaed371071069d61a3ab94dff15d10d36403ff269d147ea986cd98083"
+    },
+    "solana-clawd": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-clawd/SKILL.md",
+      "computedHash": "1c90304224912aebaccdf831664f729eefdfa6895ff9be29f90a5f38d25376b3"
+    },
+    "solana-clawd-agentic-commerce": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-clawd-agentic-commerce/SKILL.md",
+      "computedHash": "4cb4b9aac0592ed423f9c7f7f95efc61db3736531ba56f695219d2c271d3f7e6"
+    },
+    "solana-clawd-agents": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-clawd-agents/SKILL.md",
+      "computedHash": "f46609533077c511f4f6f6a4235aae6054905737bb3a7dd8821dd7c9137ee2ad"
+    },
+    "solana-common-errors": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-common-errors/SKILL.md",
+      "computedHash": "60bfdf7f76415a06f6777174b8514d3e1a8cd021401c6afde01efd5a4bb8cea8"
+    },
+    "solana-dev": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-dev/SKILL.md",
+      "computedHash": "8f69bbe4aecdfecd06d357790b371dba07b8fdcbd6e4aa55f0038f3d20954d69"
+    },
+    "solana-ralphy-skill": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-ralphy-skill/SKILL.md",
+      "computedHash": "c4b4bed38535d2004eb2a31dcd8c3405eabd20a98ea88bcdb4f2003a5e3e63be"
+    },
+    "solana-redpill-verifier": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-redpill-verifier/SKILL.md",
+      "computedHash": "b83f4e4b90dcd5aacad21bac35e071d57ff37d1ac45d268d3f79d66095c08879"
+    },
+    "solana-rent-free-dev": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/solana-rent-free-dev/SKILL.md",
+      "computedHash": "6a932a54b60ff7871cac00df02fd42550a18f9776d6e10d5a47fa1937f1e1d6a"
+    },
+    "songsee": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/songsee/SKILL.md",
+      "computedHash": "29235684ae2126bf02d70fd8fe66e559eff5e1d8fd05bb5dc3192b4931adbbbc"
+    },
+    "sonoscli": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sonoscli/SKILL.md",
+      "computedHash": "903b556b81a3cd49c3cbc476c9f61daf5a3643fc8f5569e795397053d88a7d9c"
+    },
+    "sponge-wallet": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sponge-wallet/SKILL.md",
+      "computedHash": "5c0552382e4168dbe4a426637b2744fa53ad34a86d1ea296bf2c88b6a1af2d65"
+    },
+    "spotify-player": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/spotify-player/SKILL.md",
+      "computedHash": "570d3465cc31b98e9f282c4579261e797ae9891815e84dfb8bc4d1ba1eb9371e"
+    },
+    "stripe": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/stripe/SKILL.md",
+      "computedHash": "e11aba218e0e018d4b0a1eb77e8ff3d6124492f2440ae84567fbfefd3bf61b26"
+    },
+    "summarize": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/summarize/SKILL.md",
+      "computedHash": "c47769178d729554aaec6e2dc7d0ceb423d48abacac67855a436a6f0b93f9233"
+    },
+    "svm": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/helius-skills/svm/SKILL.md",
+      "computedHash": "9f8a6dc88852b271b02bd2198a5cce7c86bb5b65b41739bd6f29f8bb154aa8b2"
+    },
+    "swap-integration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/swap-integration/SKILL.md",
+      "computedHash": "093f10ec4ac9b71cfd5716c3a95a85323be6d594334bd35d714b592e3d1d51ba"
+    },
+    "swap-planner": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/swap-planner/SKILL.md",
+      "computedHash": "976029b4d6ffd2406ba2187e9401017535f88ab444d97e52f1f5b001d8d93b23"
+    },
+    "swarm-orchestrator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/swarm-orchestrator/SKILL.md",
+      "computedHash": "d57eca20e513482b8e1b237b12afa8921cf7b5f54a1c70fe9261f33cb38d9747"
+    },
+    "tao-analyze-changenet-rca": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-analyze-changenet-rca/SKILL.md",
+      "computedHash": "703e3ef8a490818cc95279b45d0aaaf44a10aea74fd631ef18fa0055ade20017"
+    },
+    "tao-analyze-gaps-visual-changenet": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-analyze-gaps-visual-changenet/SKILL.md",
+      "computedHash": "cdf5b7c41d82d673615f4f5aba4212318865f9c037db6de75dbd047cde6e0792"
+    },
+    "tao-analyze-gaps-vlm-bcq": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-analyze-gaps-vlm-bcq/SKILL.md",
+      "computedHash": "c31095310bed5d072d599206e88e6a13a3cefb69994655b1ebdbb2b780612865"
+    },
+    "tao-convert-dataset-format": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-convert-dataset-format/SKILL.md",
+      "computedHash": "e5d64717601ce8040d387d78b7df0165a7e805f7dc1513ef321d0a86dd1b6a9c"
+    },
+    "tao-finetune-clip": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-finetune-clip/SKILL.md",
+      "computedHash": "4129eb288a5376585f0682bceaf238b634f5d58e432dd5a083b58b29c1f22f60"
+    },
+    "tao-finetune-cosmos-embed": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-finetune-cosmos-embed/SKILL.md",
+      "computedHash": "be29fbba141e3030c32f45ae931c3f8f39564fae1b5c01a211c0f063d408903d"
+    },
+    "tao-finetune-cosmos-reason": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-finetune-cosmos-reason/SKILL.md",
+      "computedHash": "6636325e186e5fe207a42a750d451d0d4e4f230e0094aa3478cfd3c6b15fa6e9"
+    },
+    "tao-finetune-huggingface-model": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-finetune-huggingface-model/SKILL.md",
+      "computedHash": "d2b4d63d91b7126236c3e4e23ec11247336497f136c288e43d1d655b4bb26d4d"
+    },
+    "tao-generate-image-grounding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-generate-image-grounding/SKILL.md",
+      "computedHash": "9622776617dab105b973d53e6c1838d9ec390186e1c25f3080b0d73f02d29d58"
+    },
+    "tao-generate-referring-expressions": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-generate-referring-expressions/SKILL.md",
+      "computedHash": "6d6f5dfc016e451fe9ffdacfae1b9b48f5885324b420c193d553199f3a54ddc5"
+    },
+    "tao-generate-video-reasoning-annotations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-generate-video-reasoning-annotations/SKILL.md",
+      "computedHash": "b0b2ca6f6df407bc821e89e182838f99919114dd5f4976d2eaa2ca5f39293263"
+    },
+    "tao-launch-workflow": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-launch-workflow/SKILL.md",
+      "computedHash": "ad5d7bced204978ff22bda796a6ca6586e71a29b8681866560e02c41e72ca210"
+    },
+    "tao-list-capabilities": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-list-capabilities/SKILL.md",
+      "computedHash": "2b4d6563e5e00dddc9d7d643a8c2f1519c1dcc83528023dfab9bbe01639a4b4a"
+    },
+    "tao-mine-aoi-images": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-mine-aoi-images/SKILL.md",
+      "computedHash": "dfb2cb1949699e43459b080c27b42d162acaf7417f1bab4be0f215f91cc1ca24"
+    },
+    "tao-port-huggingface-model": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-port-huggingface-model/SKILL.md",
+      "computedHash": "922bd6229743df8f7acfeda15cb1d596a19dbcb9ee28046c4508f657ed249350"
+    },
+    "tao-route-visual-changenet-samples": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-route-visual-changenet-samples/SKILL.md",
+      "computedHash": "b948569673c14cd7962e22bfafea571eae88178f8cc6c3efaf1aee55b777b82a"
+    },
+    "tao-run-automl": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-automl/SKILL.md",
+      "computedHash": "cabab72dd03ad5a9cd6f121fa9c28f0ad5e47bf144cfdbd442dbc284d22a2f89"
+    },
+    "tao-run-automl-deft-pipeline": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-automl-deft-pipeline/SKILL.md",
+      "computedHash": "65b3d7e36e56aba45efba0e2fc5e26cf38964cb1efdd2ef3f9aa2a020c769c2a"
+    },
+    "tao-run-deft-aoi": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-deft-aoi/SKILL.md",
+      "computedHash": "e0def8bb72a673ab4dbd3eb02d74223a081b89aae5981baa7064467e716b4c30"
+    },
+    "tao-run-inference-service": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-inference-service/SKILL.md",
+      "computedHash": "6b3ad8257fd55291c48438f8bbd6556e8fa38be77265edf21dcdf1ab264b0f32"
+    },
+    "tao-run-on-brev": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-on-brev/SKILL.md",
+      "computedHash": "e09e68fb66d084857dcae2fd3ae51412424284616e7401bd36d761c8d8a68dae"
+    },
+    "tao-run-on-kubernetes": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-on-kubernetes/SKILL.md",
+      "computedHash": "4b9ecc847dde5084cb8240d695cdc35f3bc55e1b66612aa01adc2175c2831edb"
+    },
+    "tao-run-on-local-docker": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-on-local-docker/SKILL.md",
+      "computedHash": "76d12b321a77d93b8e310ed0572a314c7e5a7903332c69af50ada8d150410a35"
+    },
+    "tao-run-on-slurm": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-on-slurm/SKILL.md",
+      "computedHash": "d549e1b29982a4418eafb70a02c19e5af98a0c23352308f72c067b115452a133"
+    },
+    "tao-run-platform": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-run-platform/SKILL.md",
+      "computedHash": "2ce27b59adfe25c1ef0a184d2d3d068906c7ccbc9445d76f463624c8cbbd6fc9"
+    },
+    "tao-setup-nvidia-gpu-host": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-setup-nvidia-gpu-host/SKILL.md",
+      "computedHash": "156f7b1d7257b6345fda5f594de8b4e6f2bcdab37fcb8a0546cc8082eea7619d"
+    },
+    "tao-train-action-recognition": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-action-recognition/SKILL.md",
+      "computedHash": "f1741b331546a404b8ab42628612c593e56008f9c6b9b7cdd549e9935fe4e19e"
+    },
+    "tao-train-bevfusion": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-bevfusion/SKILL.md",
+      "computedHash": "0bab759415e15d80279bd252cec9b8712d5ba2a7ab66c75275efbdd2747a1c95"
+    },
+    "tao-train-centerpose": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-centerpose/SKILL.md",
+      "computedHash": "50bda3f4f09f2397b7e2f17232da3189df9233ec4718f47c7448bcc48f8e91df"
+    },
+    "tao-train-deformable-detr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-deformable-detr/SKILL.md",
+      "computedHash": "e13ccd107d5a54517e82019bc6c904cf95f918fbd20dc0d9c5592ab028c30c9b"
+    },
+    "tao-train-depth-anything-v2": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-depth-anything-v2/SKILL.md",
+      "computedHash": "8fb670b90ec151ae39f5288d3288298bf04e533d308629c9793fd610e8d6e454"
+    },
+    "tao-train-dino": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-dino/SKILL.md",
+      "computedHash": "fa75e807a767699be52073067a92a885b0fdb2de1f54a56563f13f4a9d621d2f"
+    },
+    "tao-train-fast-foundation-stereo": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-fast-foundation-stereo/SKILL.md",
+      "computedHash": "f2a98eb24fbf7324b87267328afec8e3c076140c28881c069447f8560e9c2753"
+    },
+    "tao-train-foundation-stereo": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-foundation-stereo/SKILL.md",
+      "computedHash": "a2305495ee4c0f99e547c585f9de7959ec7a526d9ad1c6203ded9e364778241e"
+    },
+    "tao-train-grounding-dino": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-grounding-dino/SKILL.md",
+      "computedHash": "6297584497c4ed0c3937159756643021bce95d97fba3c963590f50d55f2b70bf"
+    },
+    "tao-train-image-classification": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-image-classification/SKILL.md",
+      "computedHash": "78ea7b4b32ab48cba17194a031a1dfb1f70e0dea468dea907efa80aa2394c360"
+    },
+    "tao-train-mask-auto-encoder": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-mask-auto-encoder/SKILL.md",
+      "computedHash": "c3c238e40c32c94588d59a743df19023f8ae38bdc32247179ca36a16d1e2269e"
+    },
+    "tao-train-mask-auto-label": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-mask-auto-label/SKILL.md",
+      "computedHash": "0a8963c87bc5dc995b99a80fab315f78ba6d41b3d0e55b5936ec018b062bb189"
+    },
+    "tao-train-mask-grounding-dino": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-mask-grounding-dino/SKILL.md",
+      "computedHash": "36fd5e6b740a61fb79589e2c92003aa55ed7beed536845dd73699cb61f9b9b6d"
+    },
+    "tao-train-mask2former": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-mask2former/SKILL.md",
+      "computedHash": "1a90bec28e97c32c5008e6c3ae1fbc633c8e1eae6e253349c3d7264b601fda32"
+    },
+    "tao-train-metric-learning-recognition": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-metric-learning-recognition/SKILL.md",
+      "computedHash": "da34de2ae77591c0945a3035a8658d0ee9f8300b26899b8cc18194671cd8a105"
+    },
+    "tao-train-nvdinov2": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-nvdinov2/SKILL.md",
+      "computedHash": "b750dd2493efef49be6d2efce2a07aa457ab56edc8c39bb86241ad53ec11705f"
+    },
+    "tao-train-nvpanoptix3d": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-nvpanoptix3d/SKILL.md",
+      "computedHash": "5927e72c0960df15da13512fdb4ee2ec9b50477149ba6b27b575df986a9b962a"
+    },
+    "tao-train-ocdnet": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-ocdnet/SKILL.md",
+      "computedHash": "b27d78300511c0b274ae692b17901c6711e57e51c4ee7d9e12d98894fb98aab8"
+    },
+    "tao-train-ocrnet": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-ocrnet/SKILL.md",
+      "computedHash": "144f2bb1cb7f12c7bc158b02dccfc9431503ee9db5ed9a84c23b18d902093bd1"
+    },
+    "tao-train-oneformer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-oneformer/SKILL.md",
+      "computedHash": "cd8cc15ea0290cccf4b780e122f8503f8bf0d132ec4271ccd1eb69a5922e32a9"
+    },
+    "tao-train-optical-inspection": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-optical-inspection/SKILL.md",
+      "computedHash": "627e22b985619346e6c704e0624deef4ab32890283a8aaf4d61f8b560298fc1a"
+    },
+    "tao-train-pointpillars": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-pointpillars/SKILL.md",
+      "computedHash": "98a5466512a68d0264d5825ce2df6e04e8f9a7138b927b8c17fa0c31f0f8fd8e"
+    },
+    "tao-train-pose-classification": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-pose-classification/SKILL.md",
+      "computedHash": "d131364d8e6403598c457a9f978d36d28ab03ceec63046bba5cc314f5ba0a50d"
+    },
+    "tao-train-reid": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-reid/SKILL.md",
+      "computedHash": "4d5d0fcd1143a49a8d09a539947c06c53e243b053f47719b8323c370a3c69153"
+    },
+    "tao-train-rtdetr": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-rtdetr/SKILL.md",
+      "computedHash": "adda58d2e565aaca96112c9814dcb6de8564c8874b0f916f06b2e60d3846268a"
+    },
+    "tao-train-segformer": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-segformer/SKILL.md",
+      "computedHash": "8198baa6cc2f448f02dce0136e929bba2d4f33bb3a1fd50c84d1d98ee964ed77"
+    },
+    "tao-train-single-step": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-single-step/SKILL.md",
+      "computedHash": "b3bbaf3b4e79ad7e9970a90272b987925f34ea0cf5d35e501897e07b4fe3a4ca"
+    },
+    "tao-train-sparse4d": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-sparse4d/SKILL.md",
+      "computedHash": "c18eff62e283e4a1c4f98798dab7c76d3834f781919dab0a426b19e3cbba0f6b"
+    },
+    "tao-train-visual-changenet": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-train-visual-changenet/SKILL.md",
+      "computedHash": "095128c05f451957422ad59d25c3ebea6e2a1f7c9bf6407d7d23ffc80b9cde8a"
+    },
+    "tao-validate-dataset-format": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tao-validate-dataset-format/SKILL.md",
+      "computedHash": "a6b3dca185e7e0810e24e816df453a7f4cb26fae128145a4725b072fd6587fb7"
+    },
+    "tdd": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "computedHash": "c9326b88419cfba1d54dd713b7ddb23020e6a93f4b0d13aea58cebba58cda2ee"
+    },
+    "testing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/testing/SKILL.md",
+      "computedHash": "f00cf8444f494873d7a715bbc3500f24ef8416b19f1f8e7237d806873f4863bb"
+    },
+    "theme-factory": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/theme-factory/SKILL.md",
+      "computedHash": "598ddfa9784ae2a8c55be5dbb047b98564d875dea6f4669168a87ae1ea1a4ed3"
+    },
+    "things-mac": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/things-mac/SKILL.md",
+      "computedHash": "923dcdb16cfb6bab612460d6e9daab2d6098ab3ff0897af15e4deb2dbbbfc429"
+    },
+    "thinking-and-docs-teach": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/thinking-and-docs/teach/SKILL.md",
+      "computedHash": "169b6e96d3c2ba3e9f134f7b0b3a2eace223d979329d2e9bbf0168fbf9fda63c"
+    },
+    "tilegym-adding-cutile-kernel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-adding-cutile-kernel/SKILL.md",
+      "computedHash": "5366f0aa66e55abf5d6115d5c5f004080fd135b709ac46d9d946e2e5ea89d271"
+    },
+    "tilegym-converting-cutile-to-julia": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-converting-cutile-to-julia/SKILL.md",
+      "computedHash": "335f29b1301552180d271d0cb32f9ef286e4ceae927d70d84a5597bf84ed3197"
+    },
+    "tilegym-converting-cutile-to-triton": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-converting-cutile-to-triton/SKILL.md",
+      "computedHash": "6d0b72064f3f4a330b2cdea3cb9fa3aa27fe21226eef2a7d8c937337744fda83"
+    },
+    "tilegym-cutile-autotuning": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-cutile-autotuning/SKILL.md",
+      "computedHash": "1f379d396c44515df672b719605059f0cd111b2c8c167530ad0934264cd44df6"
+    },
+    "tilegym-cutile-python": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-cutile-python/SKILL.md",
+      "computedHash": "bedc74fa803cccbb803736e609d18f62bfa39fed5525cd6eab91be67ac6d12de"
+    },
+    "tilegym-improve-cutile-kernel-perf": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-improve-cutile-kernel-perf/SKILL.md",
+      "computedHash": "124202910821a04bbd5fcc839edfbf9ffc19fa631c98e5839506e7f54208f6b1"
+    },
+    "tilegym-monkey-patch-kernels-to-transformers": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/tilegym-monkey-patch-kernels-to-transformers/SKILL.md",
+      "computedHash": "ecf4e7778a9b5d2bce7045b43e8139adbdf7f9bdb6ad39608ad7b9253d90aa64"
+    },
+    "tmux": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/tmux/SKILL.md",
+      "computedHash": "d369a271693e587026b0da8198312937270c17c27435fd5d7989b49abfe15b0d"
+    },
+    "to-spec": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-spec/SKILL.md",
+      "computedHash": "c5d294a88d00942a38dc589299423e35ea07157cf29eed21434378edb5cfafa4"
+    },
+    "to-tickets": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-tickets/SKILL.md",
+      "computedHash": "683ed84afd324a6b0163157489ecf1c996a3af3cffedc1d877a89948d4adfc7c"
+    },
+    "trello": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/trello/SKILL.md",
+      "computedHash": "f0172b7059a75b0a2e0fed732be4563df525253c56684322e97e49352c770b78"
+    },
+    "triage": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/triage/SKILL.md",
+      "computedHash": "b77ea99c2e6e97815b373cc476ad4cc1835d3e736867b764602147be71f6c131"
+    },
+    "ubiquitous-language": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/deprecated/ubiquitous-language/SKILL.md",
+      "computedHash": "c8968b02b83c365bc81d85cc17fb4c8854b80f5b6dece322164fff5b00142231"
+    },
+    "v4-hook-generator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/v4-hook-generator/SKILL.md",
+      "computedHash": "6796284522afe7cb8e8e2fa771a5a5dc0611822da8026361df718ca1d8f3ea09"
+    },
+    "v4-sdk-integration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/v4-sdk-integration/SKILL.md",
+      "computedHash": "f5a88201d61587d0d7915e9c1e10761c4a9feed10034009bce60841962c2e9a4"
+    },
+    "v4-security-foundations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/v4-security-foundations/SKILL.md",
+      "computedHash": "f4d5741e07fcb5e0efabb7700a44e8102b646645b3da2583b823acc9538acf61"
+    },
+    "video-frames": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/video-frames/SKILL.md",
+      "computedHash": "188bc76899cb2a3e8a1146cc6e4c223b1294bcbfecdc5088564d35d3e676eca7"
+    },
+    "viem-integration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/viem-integration/SKILL.md",
+      "computedHash": "90297ae94a88b74fd3c2cfbbba737712d538c38416101a2c8c039d9016220fe1"
+    },
+    "voice-call": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/voice-call/SKILL.md",
+      "computedHash": "b730d771728311982facf3e62bdfc256b92e1c1fef83a11646e425f95ec7d584"
+    },
+    "vss-ask-video": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-ask-video/SKILL.md",
+      "computedHash": "054c3dcd824bfd6a91cd75710576d937ac43013ac3bc98af95dc0ea39474bacc"
+    },
+    "vss-deploy-dense-captioning": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-deploy-dense-captioning/SKILL.md",
+      "computedHash": "0c9f50271c4641835d8d7cbcfb5598e4c6259ac9e0af9a6bcdfced9761515067"
+    },
+    "vss-deploy-detection-tracking-2d": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-deploy-detection-tracking-2d/SKILL.md",
+      "computedHash": "66621780e79ed9bbf4d885e679d9ad10bb645dabf528adf0cc6cc73ee2c52fdd"
+    },
+    "vss-deploy-detection-tracking-3d": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-deploy-detection-tracking-3d/SKILL.md",
+      "computedHash": "cf1986a42a40348dec04b0ca97a24c958e44b6a0b2e353a43a863237be1c3dbf"
+    },
+    "vss-deploy-profile": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-deploy-profile/SKILL.md",
+      "computedHash": "6f57fc00f470390cd74599ad0ccc654958d613cb0f41039a2fb51cb1725c8db6"
+    },
+    "vss-deploy-video-embedding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-deploy-video-embedding/SKILL.md",
+      "computedHash": "6e6d00973eb16490a91a04d79a99bfd086b1b3d2b228ce76c2678944a2590f1e"
+    },
+    "vss-generate-video-calibration": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-generate-video-calibration/SKILL.md",
+      "computedHash": "ecc28d052e9876ef5dda694ade62bc6bd21dfc6590cb14ed07d3eba4fe5de6bf"
+    },
+    "vss-generate-video-report": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-generate-video-report/SKILL.md",
+      "computedHash": "fd09f8ae1b1acafd61c0175fb94ba554e1eef0e3b424b0eeda3713c337734170"
+    },
+    "vss-manage-alerts": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-manage-alerts/SKILL.md",
+      "computedHash": "790cc9146e1eeeb144b42ab3fe8c3e9997225b7be47c0cd3c991d9562657142e"
+    },
+    "vss-manage-video-io-storage": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-manage-video-io-storage/SKILL.md",
+      "computedHash": "5bcbffcc8a9c394f5a171f542ee29f8796c2e11465bd2eaa0f9e2290fb991c21"
+    },
+    "vss-query-analytics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-query-analytics/SKILL.md",
+      "computedHash": "0ea8bebab83a8eced02dd1cb440955355b8497be6e48ee421a3b8c348faddded"
+    },
+    "vss-search-archive": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-search-archive/SKILL.md",
+      "computedHash": "63c00d888af84bda317f389b30450eaa07e88033f9a90d344112ecbce0a623b7"
+    },
+    "vss-setup-behavior-analytics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-setup-behavior-analytics/SKILL.md",
+      "computedHash": "3316ab0e1cb34c0853974b2a8c519cfa70c03f618a481f819af90762505e7a6f"
+    },
+    "vss-setup-video-analytics-api": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-setup-video-analytics-api/SKILL.md",
+      "computedHash": "3b5a20161154d9b53aeb733c6be581131f60f9f8c5da6a741e65aad467c89c87"
+    },
+    "vss-summarize-video": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia/vss-summarize-video/SKILL.md",
+      "computedHash": "0435126f88834193f7dbddbdc4bf860ef56c2894dbadb4a79a5d0db3876b7e6e"
+    },
+    "vulcan": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan/SKILL.md",
+      "computedHash": "8bab682e45606dfafc7efe199f874d7a5a16de5766412d8bf8e4ccf93ccb7c4d"
+    },
+    "vulcan-error-recovery": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-error-recovery/SKILL.md",
+      "computedHash": "c18fab5931e9210da70c619041268b52ef67fad313debd4c8baf983a854483cf"
+    },
+    "vulcan-grid-trading": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-grid-trading/SKILL.md",
+      "computedHash": "1b0ddcbacf3c2c1d5909122851e0a06d89112fc8602c6cfc34e9f90c713fe4c8"
+    },
+    "vulcan-lot-size-calculator": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-lot-size-calculator/SKILL.md",
+      "computedHash": "917afeab574df982ae170bcabe3925d5b0ce3f7a16acefa8c130d08a25604ad2"
+    },
+    "vulcan-margin-operations": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-margin-operations/SKILL.md",
+      "computedHash": "a7672f57b4da66d9ab3b1055adf87b7a4f23e093f0804f961f64c1daa670715b"
+    },
+    "vulcan-market-intel": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-market-intel/SKILL.md",
+      "computedHash": "cd6f8a22d26e7d13c2d23ca22872be605b8a5a122e2ea2f022b11acf0577dc26"
+    },
+    "vulcan-onboarding": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-onboarding/SKILL.md",
+      "computedHash": "341efa892c2f02db22f395f2a36774dc95f34a8512424db8a07e5a76459fad2a"
+    },
+    "vulcan-position-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-position-management/SKILL.md",
+      "computedHash": "7e51ea65492095a545bb34513553c7157d21c4b00d293773630c1253097337cd"
+    },
+    "vulcan-quickstart": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-quickstart/SKILL.md",
+      "computedHash": "5bff5e3f154354b916e7d5ebb6709a8ac5d80c6e981497daf4295a1af5a8841c"
+    },
+    "vulcan-skills-index": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-skills-index/SKILL.md",
+      "computedHash": "0bec3544b4146de8b3517fa035de54ece53cd7abbf138cd6cb395e59312af9e8"
+    },
+    "vulcan-ta-strategy": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-ta-strategy/SKILL.md",
+      "computedHash": "e0e96552296c6e12b60f42a565386e3c7a34df234fa0249a556402e072f891e6"
+    },
+    "vulcan-tpsl-management": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-tpsl-management/SKILL.md",
+      "computedHash": "373126d121ac48a3d9847b3da8740218f86fc0ad9b68cdcf908f8aab624d9b9d"
+    },
+    "vulcan-twap-execution": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vulcan-twap-execution/SKILL.md",
+      "computedHash": "874748869b0e764c0141caf070a0a4952e3e83ff5c16c640a8141ce1301fbdab"
+    },
+    "wacli": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/wacli/SKILL.md",
+      "computedHash": "d7679f50ba4241d9a6ed15a6d34066bd06fc1ba5d706de629d5ad7f7884b2a51"
+    },
+    "wayfinder": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/wayfinder/SKILL.md",
+      "computedHash": "3eb72cd9abdfaa00e10fa69f0b4410ff8639a6cf4eb9e5d187b289c3aa9be2fc"
+    },
+    "weather": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/weather/SKILL.md",
+      "computedHash": "3607a21e58d9e4c80c37089ac46f6a18207d39830c2aaa347c92e3c7d4ef575a"
+    },
+    "web-artifacts-builder": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/web-artifacts-builder/SKILL.md",
+      "computedHash": "d52d422ead3fa26859a6af129609841a8536b230a2d649f86e61771d063e05e2"
+    },
+    "web-perf": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-perf/SKILL.md",
+      "computedHash": "7ae53856c320574f7440f50aef7892f96837eec9fd49d329d049d432fb4b299a"
+    },
+    "webapp-testing": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/webapp-testing/SKILL.md",
+      "computedHash": "ad5b1fc52807e9afa4635e59218a026b164dc58b6c3f41b0f7c644dcd6ccf572"
+    },
+    "wizard": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/wizard/SKILL.md",
+      "computedHash": "6ac45e430f0ca1409e618729156096fb042a81a12e0d2824920b7dfc0adc9329"
+    },
+    "workers-best-practices": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/workers-best-practices/SKILL.md",
+      "computedHash": "420e1ad3eaeb8ed2016e6b34fff3757de6aa39899ec2bd6e9784a29c38e70f9a"
+    },
+    "workload-manager-basics": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/google/cloud/workload-manager-basics/SKILL.md",
+      "computedHash": "a951d71a82f0d50a1e20f17bb868a41e126f97db9721dfd7374b5b9b56367d49"
+    },
+    "wrangler": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/wrangler/SKILL.md",
+      "computedHash": "11edeb37eedb91deedde694b2bb1cc4ff4e8b5a8f1836c217a8c871fe39abcb5"
+    },
+    "writing-beats": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-beats/SKILL.md",
+      "computedHash": "b2bb74a1e15fcac1fec9aac4fa4c8244e8ed7c4eef1f9096ea3b52b7eb091943"
+    },
+    "writing-fragments": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-fragments/SKILL.md",
+      "computedHash": "394bc75401f55d242ecebb548e9932a211b84423ca25ebe7bbfdebde4f6066ce"
+    },
+    "writing-great-skills": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/writing-great-skills/SKILL.md",
+      "computedHash": "42fe94c64d7b9acda9ce7d6495a3476893a1b18615986528f55f7162a29789d4"
+    },
+    "writing-shape": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-shape/SKILL.md",
+      "computedHash": "77007511510c05b602835acdb91a88f435ce5a08a9dbf95ade148f02e4b09548"
+    },
+    "xlsx": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/anthropic-skills/xlsx/SKILL.md",
+      "computedHash": "efd0c8011cf0677d8075cf93867ecec804f9a8754a777e1d2fdb46197e9c247f"
+    },
+    "youtube-clipper": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-clipper/SKILL.md",
+      "computedHash": "afc2aee01b083b9ce61091053d2b626301b2346cc5bb6fe37ce6bd1c135df34c"
+    },
+    "youtube-transcript": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-and-web/youtube-transcript/SKILL.md",
+      "computedHash": "9cf0b7781fa00384b8e7b57d3e866ea416c0e748b0f8e7de49bf69f727fcc688"
+    },
+    "zk": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/zk/SKILL.md",
+      "computedHash": "13ceeaf9e5d8f4aa1fe132485d5219b8aa26fb2eb1ad67ce139496e8ec5a8da3"
+    },
+    "zk-omni-messaging": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/zk-omni-messaging/SKILL.md",
+      "computedHash": "6e1490181bfe1f586142cc27ea20a9d5d684e31ca45a0b367634c0866aa8cd3f"
+    },
+    "zkrouter": {
+      "source": "Solizardking/skills",
+      "sourceType": "github",
+      "skillPath": "skills/zkrouter/SKILL.md",
+      "computedHash": "4b7e98e1ad8b71fafd3cd1c1a3e0ff5c884d48539f665c8dfc5b5ad3bd8cc763"
+    }
+  }
+}

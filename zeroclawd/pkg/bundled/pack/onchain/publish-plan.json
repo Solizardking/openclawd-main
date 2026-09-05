@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "skillhub-publish-plan/v1",
+  "createdAt": "2026-07-10T22:49:46.541Z",
+  "cluster": "devnet",
+  "rpc": "https://api.devnet.solana.com",
+  "merkleRoot": "sha256-3232172cd852237bc775ead1e6b7083109d8e8a621f05415cae05b8213d7a9f4",
+  "catalogHash": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103",
+  "totalSkills": 558,
+  "uploads": [
+    {
+      "label": "onchain-skill-registry.json",
+      "bytes": 448597,
+      "tags": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "App-Name",
+          "value": "skill-hub"
+        },
+        {
+          "name": "Type",
+          "value": "onchain-skill-registry/v1"
+        },
+        {
+          "name": "Skill-Count",
+          "value": "558"
+        },
+        {
+          "name": "Merkle-Root",
+          "value": "sha256-3232172cd852237bc775ead1e6b7083109d8e8a621f05415cae05b8213d7a9f4"
+        },
+        {
+          "name": "Catalog-Hash",
+          "value": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103"
+        },
+        {
+          "name": "Hub-Url",
+          "value": "https://skills.x402.wtf"
+        }
+      ]
+    },
+    {
+      "label": "catalog.json",
+      "bytes": 234876,
+      "tags": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "App-Name",
+          "value": "skill-hub"
+        },
+        {
+          "name": "Type",
+          "value": "skill-catalog/v1"
+        },
+        {
+          "name": "Skill-Count",
+          "value": "558"
+        },
+        {
+          "name": "Merkle-Root",
+          "value": "sha256-3232172cd852237bc775ead1e6b7083109d8e8a621f05415cae05b8213d7a9f4"
+        },
+        {
+          "name": "Catalog-Hash",
+          "value": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103"
+        },
+        {
+          "name": "Hub-Url",
+          "value": "https://skills.x402.wtf"
+        }
+      ]
+    }
+  ],
+  "memoPreview": "skillhub:v1|skills:558|merkle:sha256-3232172cd852237bc775ead1e6b7083109d8e8a621f05415cae05b8213d7a9f4|catalog:sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103|ar:<registry-ar-tx>,<catalog-ar-tx>"
+}

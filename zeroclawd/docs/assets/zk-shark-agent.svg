@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">ZK Shark Agent — Shark of All Streets</title>
+  <desc id="desc">Animated zk-shark-agent hero: a glowing shark patrols a cypherpunk ocean of nullifiers. Go package pkg/zkomni owns inspect, ask, and RH↔Solana zk-omni.</desc>
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#021016"/>
+      <stop offset="0.45" stop-color="#031a22"/>
+      <stop offset="1" stop-color="#01080c"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff9d"/>
+      <stop offset="0.55" stop-color="#39ff14"/>
+      <stop offset="1" stop-color="#00e0ff"/>
+    </linearGradient>
+    <linearGradient id="sharkFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9ffff"/>
+      <stop offset="0.28" stop-color="#7eecff"/>
+      <stop offset="0.62" stop-color="#3ec4dc"/>
+      <stop offset="1" stop-color="#1a7a8c"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9fbff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#e8fff8" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00e0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ff9d" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#00e0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="caustic" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ff9d" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00e0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.05  0 0 0 0 0.9  0 0 0 0 0.85  0 0 0 0.9 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="420" rx="28"/>
+    </clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .rain { fill: #00e0ff; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#ocean)"/>
+
+    <!-- deep water grain -->
+    <g opacity="0.25" stroke="#00e0ff" stroke-width="0.6" fill="none">
+      <path d="M-40 110 Q 80 95 200 112 T 440 108 T 680 118 T 920 104 T 1240 116">
+        <animate attributeName="d" dur="5s" repeatCount="indefinite"
+          values="M-40 110 Q 80 95 200 112 T 440 108 T 680 118 T 920 104 T 1240 116;
+                  M-40 114 Q 80 128 200 108 T 440 120 T 680 102 T 920 118 T 1240 108;
+                  M-40 110 Q 80 95 200 112 T 440 108 T 680 118 T 920 104 T 1240 116"/>
+      </path>
+      <path d="M-40 150 Q 120 138 260 152 T 540 146 T 820 158 T 1240 148" opacity="0.7">
+        <animate attributeName="d" dur="6.4s" repeatCount="indefinite"
+          values="M-40 150 Q 120 138 260 152 T 540 146 T 820 158 T 1240 148;
+                  M-40 156 Q 120 168 260 144 T 540 160 T 820 140 T 1240 154;
+                  M-40 150 Q 120 138 260 152 T 540 146 T 820 158 T 1240 148"/>
+      </path>
+    </g>
+
+    <!-- caustic light bands -->
+    <rect x="-200" y="80" width="420" height="260" fill="url(#caustic)" transform="skewX(-18)">
+      <animateTransform attributeName="transform" type="translate" from="-240 0" to="1280 0" dur="7.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-200" y="140" width="280" height="180" fill="url(#caustic)" opacity="0.7" transform="skewX(-22)">
+      <animateTransform attributeName="transform" type="translate" from="1280 0" to="-280 0" dur="9.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- nullifier rain -->
+    <g class="rain" opacity="0.42">
+      <g>
+        <text x="36" y="0">0x</text><text x="36" y="18">nf</text><text x="36" y="36">01</text><text x="36" y="54">zk</text><text x="36" y="72">a7</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -90" to="0 460" dur="4.2s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="1100" y="0">PoK</text><text x="1100" y="18">ed</text><text x="1100" y="36">25519</text><text x="1100" y="54">01</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 460" dur="5.1s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="1160" y="0">4</text><text x="1160" y="18">msg</text><text x="1160" y="36">0x</text><text x="1160" y="54">lz</text>
+        <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 460" dur="3.6s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <rect x="20" y="20" width="1160" height="380" rx="20" fill="none" stroke="#00e0ff" stroke-width="1" opacity="0.28"/>
+
+    <!-- distant jaws fin cutting the surface -->
+    <g opacity="0.85" filter="url(#glow)">
+      <g>
+        <path d="M0 96 L22 38 L34 96 Z" fill="#0c3038" stroke="#00e0ff" stroke-width="1.4"/>
+        <path d="M8 96 C 14 78 22 70 30 96" fill="#082028"/>
+        <animateTransform attributeName="transform" type="translate" values="-60 0; 1260 8; -60 0" dur="11s" keyTimes="0;0.72;1" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- bubble trail -->
+    <g fill="#9ffff0" opacity="0.7">
+      <g>
+        <circle r="3.2" cx="0" cy="0"/>
+        <circle r="2" cx="12" cy="-16"/>
+        <circle r="1.4" cx="-8" cy="-28"/>
+        <text x="16" y="-8" class="mono" font-size="11" fill="#00ff9d">0xnf</text>
+        <animateTransform attributeName="transform" type="translate" values="260 300; 300 40" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="4.8s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <circle r="2.4" cx="0" cy="0"/>
+        <circle r="1.6" cx="10" cy="-18"/>
+        <text x="14" y="-6" class="mono" font-size="10" fill="#00e0ff">sha256</text>
+        <animateTransform attributeName="transform" type="translate" values="820 310; 860 50" dur="5.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.75;0" dur="5.6s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- hero shark: bob + surge; nested groups so rotate does not clobber translate -->
+    <g>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 16 -7; 0 5; -12 -3; 0 0" dur="3.4s" repeatCount="indefinite"/>
+
+        <!-- tail hinged at the peduncle -->
+        <g transform="translate(318,222)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-14; 16; -14" dur="0.7s" repeatCount="indefinite"/>
+            <path d="M0 -8 C -20 -18 -70 -70 -118 -86 C -90 -20 -70 0 -48 2 C -70 6 -96 28 -122 92 C -74 52 -24 22 0 10 Z" fill="url(#sharkFill)" stroke="#00e0ff" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M-10 2 L-64 2" stroke="#9ffff0" stroke-width="1.4" opacity="0.45"/>
+          </g>
+        </g>
+
+        <!-- pectoral -->
+        <g transform="translate(620,268)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="6; 20; 6" dur="1.05s" repeatCount="indefinite"/>
+            <path d="M0 0 C -8 28 -28 70 -54 96 C 8 58 48 22 70 10 Z" fill="#1b5d6c" stroke="#00e0ff" stroke-width="1.6" stroke-linejoin="round"/>
+          </g>
+        </g>
+
+        <!-- dorsal sitting on the back -->
+        <path d="M528 158 L586 42 L658 162 Z" fill="url(#sharkFill)" stroke="#00e0ff" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M572 70 L592 160" stroke="#e8ffff" stroke-width="1.4" opacity="0.4"/>
+
+        <!-- pelvic -->
+        <path d="M455 268 L438 322 L498 274 Z" fill="#176070" stroke="#00e0ff" stroke-width="1.3" stroke-linejoin="round"/>
+
+        <!-- body: fat torpedo, snout right -->
+        <path fill="url(#sharkFill)" stroke="#9ffff8" stroke-width="2.4" stroke-linejoin="round">
+          <animate attributeName="d" dur="0.7s" repeatCount="indefinite"
+            values="M318 214 C 400 176 510 148 640 146 C 760 144 860 162 940 186 C 990 200 1038 208 1076 200 C 1104 194 1122 198 1130 210 C 1136 220 1126 232 1104 242 C 1070 258 1020 268 960 272 C 860 280 740 292 620 294 C 500 296 400 284 344 256 C 322 244 316 228 318 214 Z;
+                    M318 214 C 408 190 522 140 650 138 C 772 136 868 156 944 182 C 994 196 1040 204 1078 198 C 1106 192 1124 196 1132 208 C 1138 218 1128 230 1106 240 C 1072 258 1020 274 958 278 C 854 288 732 304 616 300 C 492 296 392 276 338 250 C 318 238 314 224 318 214 Z;
+                    M318 214 C 400 176 510 148 640 146 C 760 144 860 162 940 186 C 990 200 1038 208 1076 200 C 1104 194 1122 198 1130 210 C 1136 220 1126 232 1104 242 C 1070 258 1020 268 960 272 C 860 280 740 292 620 294 C 500 296 400 284 344 256 C 322 244 316 228 318 214 Z"/>
+        </path>
+
+        <!-- countershade + belly -->
+        <path d="M360 250 C 520 276 740 288 980 262 C 900 286 700 298 520 292 C 430 288 370 268 360 250 Z" fill="url(#belly)"/>
+        <path d="M420 168 C 560 150 760 158 920 190" fill="none" stroke="#f4ffff" stroke-width="3" opacity="0.18"/>
+
+        <!-- gills -->
+        <g fill="none" stroke="#d6fbff" stroke-width="1.8" opacity="0.75">
+          <path d="M838 188 C 850 208 850 236 834 258"/>
+          <path d="M856 190 C 868 210 868 238 852 260"/>
+          <path d="M874 194 C 886 214 886 240 870 260"/>
+        </g>
+
+        <!-- mouth + teeth on the snout -->
+        <path d="M1028 228 C 1062 240 1094 242 1120 230" fill="none" stroke="#041014" stroke-width="3.2" stroke-linecap="round"/>
+        <g fill="#f7fffb">
+          <path d="M1042 230 L1047 242 L1054 231 Z"/>
+          <path d="M1058 232 L1063 244 L1070 233 Z"/>
+          <path d="M1074 233 L1079 244 L1086 234 Z"/>
+          <path d="M1090 233 L1095 243 L1102 233 Z"/>
+        </g>
+
+        <!-- eye on the head -->
+        <circle cx="980" cy="198" r="13" fill="#041014" stroke="#00ff9d" stroke-width="1.6"/>
+        <circle cx="982" cy="196" r="6" fill="#00ff9d">
+          <animate attributeName="r" values="6;4;6" dur="2.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="984" cy="194" r="2" fill="#f5fffb"/>
+      </g>
+    </g>
+
+    <!-- school of chevrons scattering -->
+    <g class="mono" fill="#00e0ff" font-size="16" opacity="0.55">
+      <text x="160" y="300">»</text>
+      <text x="186" y="318">»</text>
+      <text x="148" y="334">»</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -40 10; 0 0" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- wordmark -->
+    <g filter="url(#glow)">
+      <text x="64" y="78" class="mono" font-size="18" fill="#00e0ff" opacity="0.9">$ clawdbot zero zkomni inspect</text>
+      <text x="60" y="368" font-family="ui-sans-serif, system-ui, sans-serif" font-size="72" font-weight="800" letter-spacing="4" fill="url(#word)">
+        ZK SHARK
+        <animate attributeName="opacity" values="1;0.84;1;0.92;1" dur="2.8s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <text x="64" y="398" class="mono" font-size="18" fill="#a8ffe6">Shark of All Streets · pkg/zkomni · @clawd/zk-shark-agent</text>
+
+    <g class="mono" font-size="14" fill="#8dffce" opacity="0.85">
+      <text x="820" y="78">ask · plan · oneshot</text>
+    </g>
+
+    <!-- scanline -->
+    <rect x="20" y="0" width="1160" height="70" fill="url(#scan)">
+      <animate attributeName="y" from="-70" to="420" dur="3.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner brackets -->
+    <g stroke="#00e0ff" stroke-width="2" opacity="0.7" fill="none">
+      <path d="M40 40 L40 66 M40 40 L66 40"/>
+      <path d="M1160 40 L1160 66 M1160 40 L1134 40"/>
+      <path d="M40 380 L40 354 M40 380 L66 380"/>
+      <path d="M1160 380 L1160 354 M1160 380 L1134 380"/>
+    </g>
+
+    <g opacity="0.9">
+      <circle cx="112" cy="54" r="3" fill="#00ff9d">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1088" cy="54" r="3" fill="#00e0ff">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>

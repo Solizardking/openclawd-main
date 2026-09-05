@@ -1,0 +1,7 @@
+{
+  "name": "Meme Token Analyzer",
+  "description": "Structured analysis and scoring of meme tokens on Solana with rug pull detection",
+  "author": "clawpump",
+  "tags": ["meme", "analysis", "risk"],
+  "version": "1.0.0"
+}

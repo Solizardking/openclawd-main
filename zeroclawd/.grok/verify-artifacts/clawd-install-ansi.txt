@@ -1,0 +1,57 @@
+[36m
+    ██████╗██╗      █████╗ ██╗    ██╗██████╗
+   ██╔════╝██║     ██╔══██╗██║    ██║██╔══██╗
+   ██║     ██║     ███████║██║ █╗ ██║██║  ██║
+   ██║     ██║     ██╔══██║██║███╗██║██║  ██║
+   ╚██████╗███████╗██║  ██║╚███╔███╔╝██████╔╝
+    ╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═════╝
+[0m
+[1m  🦞 Clawd — one-shot stack (npm)[0m
+  Skills · Agents · Packages · Solana + Robinhood omni
+
+    [38;2;85;102;128m┌[0m[38;2;85;102;128m──────────────────────────────────────────────────────────────[0m[38;2;85;102;128m┐[0m
+    [38;2;85;102;128m│[0m  [1;38;2;20;241;149mCLAWD[0m [38;2;85;102;128m·[0m [1;38;2;20;241;149mPUMP.FUN LIVE[0m [38;2;85;102;128m·[0m [1;38;2;153;69;255msolgpt.us/pump[0m
+    [38;2;85;102;128m│[0m  [38;2;85;102;128mlive launches  ·  skip: CLAWDBOT_SKIP_PUMP_TAPE=1[0m
+    [38;2;85;102;128m└[0m[38;2;85;102;128m──────────────────────────────────────────────────────────────[0m[38;2;85;102;128m┘[0m
+    [1;38;2;0;212;255m●[0m [38;2;85;102;128m2,937,323 launches · 33,910 github · 6 watching · up 97d 19h[0m
+    [1;38;2;20;241;149m▶[0m  [1;38;2;153;69;255m$FROG[0m  [1;37mPepeFrog[0m  [38;2;85;102;128m7xK9…pump[0m  [1;38;2;255;170;0m12.4 SOL[0m  [1;38;2;0;212;255mgh[0m
+    [1;38;2;20;241;149m◆[0m  [1;38;2;153;69;255m$CAT[0m  [1;37mCatWifHat[0m  [38;2;85;102;128m9Enr…pump[0m  [1;38;2;255;170;0m0.80 SOL[0m
+    [38;2;85;102;128m· tape closed (2 launches)[0m
+    [38;2;85;102;128mhttps://solgpt.us/pump[0m
+[32m  ✓[0m Skill pack OK — 24 skills (rh-crypto-agent)
+[36m  ▶[0m Install home: /var/folders/z2/fjzp59x97m5cmb81szvryzxh0000gn/T/clawd-install-shot-CAPxvL
+[32m  ✓[0m Skills installed → /var/folders/z2/fjzp59x97m5cmb81szvryzxh0000gn/T/clawd-install-shot-CAPxvL/skills (615)
+[32m  ✓[0m Linked into agent skill dirs (1845 links)
+[32m  ✓[0m .env written → /var/folders/z2/fjzp59x97m5cmb81szvryzxh0000gn/T/clawd-install-shot-CAPxvL/.env
+[36m  ▶[0m automaton: skipped (flag)
+[36m  ▶[0m Birth seeds skipped (flag)
+
+[32m[1m  ══════════════════════════════════════════[0m
+[32m[1m  🦞 Clawd stack installed (npm oneshot)[0m
+[32m[1m  ══════════════════════════════════════════[0m
+
+  [1mPump.fun live:[0m https://solgpt.us/pump
+  [1mGet started:[0m
+  [36mexport CLAWDBOT_SKILLS_DIR="/var/folders/z2/fjzp59x97m5cmb81szvryzxh0000gn/T/clawd-install-shot-CAPxvL/skills"[0m
+  [36msource /var/folders/z2/fjzp59x97m5cmb81szvryzxh0000gn/T/clawd-install-shot-CAPxvL/.env[0m
+  [36mnpx clawdbot-go skills[0m              # list RH pack
+  [36mclawdbot catalog skills[0m             # if Go binary present
+  [36m# Set BLOCKSCOUT_API_KEY + RH_RPC_URL for RH 4663[0m
+
+  [1mSurfaces:[0m
+    Clawd        https://cheshireterminal.ai/zeroclawd
+    Agent hub    https://cheshireterminal.ai/agents
+    Agent forge  https://cheshireterminal.ai/agents/forge
+    FunPump      https://funpump.ai
+  [1mOpen agents:[0m
+    npm          https://www.npmjs.com/package/cheshire-terminal-agents
+    GitHub       https://github.com/Solizardking/Cheshire-Terminal-Agents
+    SkillHub     https://github.com/Solizardking/skillhub-main
+  [1mSkills:[0m   615 in /var/folders/z2/fjzp59x97m5cmb81szvryzxh0000gn/T/clawd-install-shot-CAPxvL/skills
+  [1mFull Go:[0m  curl -fsSL https://raw.githubusercontent.com/Solizardking/Zero-Bruh/main/install.sh | bash
+  [1mnpm package:[0m npm i -g clawdbot-go && clawd-bot install
+  [1mAgents SDK:[0m  npm i cheshire-terminal-agents
+  [1mSkillHub:[0m     npx github:Solizardking/skills install cheshire-terminal-agents --force
+
+  🦞 $CLAWD :: Droids Lead The Way
+

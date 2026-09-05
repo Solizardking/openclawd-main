@@ -1,0 +1,53 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.go text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+pnpm-lock.yaml linguist-generated=true
+**/package-lock.json linguist-generated=true
+dist/** linguist-generated=true
+**/dist/** linguist-generated=true
+
+# ============================================================================
+# SLIM SOURCE PACKAGE (git archive / GitHub source tarballs)
+# Prefer CLAWDBOT_SOURCE_MODE=archive so installs download a small tree.
+# Full `git clone` still retains historical and optional payload.
+# ============================================================================
+
+# Historical PiedPiper archive (PDFs, binaries, demos) — kept in git, not in slim packages
+docs/PiedPiper-master/ export-ignore
+
+# Generated / local-only trees
+.cache/ export-ignore
+.claude/ export-ignore
+.agents/ export-ignore
+agent/ export-ignore
+build/ export-ignore
+dist/ export-ignore
+mobile/node_modules/ export-ignore
+**/node_modules/ export-ignore
+**/target/ export-ignore
+**/.next/ export-ignore
+**/coverage/ export-ignore
+**/__screenshots__/ export-ignore
+**/.vitest-attachments/ export-ignore
+
+# Optional TS lockfiles and build stamps (installer / npm recreate these)
+**/package-lock.json export-ignore
+**/pnpm-lock.yaml export-ignore
+**/yarn.lock export-ignore
+**/*.tsbuildinfo export-ignore
+
+# OS/editor noise if ever tracked
+.DS_Store export-ignore
+**/.DS_Store export-ignore

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Clawd Bot",
+    "slug": "clawdbot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "clawdbot",
+    "android": {
+      "package": "ai.cheshireterminal.clawdbot",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0B1020"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-dev-client"
+    ],
+    "extra": {
+      "product": "https://cheshireterminal.ai/zeroclawd",
+      "runtimeRepo": "https://github.com/Solizardking/Zero-Bruh"
+    }
+  }
+}

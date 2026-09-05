@@ -1,0 +1,7 @@
+{
+  "name": "Survivor Check",
+  "description": "Survival-first token check by SOAG: is it a survivor (age + live LP + two-sided volume) or a trap? Tiers 🥉🥈🥇💎.",
+  "author": "yksanjo",
+  "tags": ["risk", "analysis", "defi"],
+  "version": "1.0.0"
+}
