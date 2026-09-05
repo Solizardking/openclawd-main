@@ -129,16 +129,17 @@ export async function proxyToOpenRouter(
     'Authorization': `Bearer ${apiKey}`,
     'Content-Type': 'application/json',
     // OpenRouter attribution headers for app rankings & analytics
-    'HTTP-Referer': siteUrl ?? 'https://github.com/x402agent/solana-clawd',
-    'X-OpenRouter-Title': siteTitle ?? 'ClawdRouter — Solana Agent LLM Router',
+    'HTTP-Referer': siteUrl ?? 'https://solanaclawd.com',
+    'X-OpenRouter-Title': siteTitle ?? 'solanaclawd',
     // X-Title is also supported for backwards compatibility
-    'X-Title': siteTitle ?? 'ClawdRouter — Solana Agent LLM Router',
+    'X-Title': siteTitle ?? 'solanaclawd',
   };
 
   // Add categories header if provided (max 2 categories per request, merged up to 10 total)
-  if (categories && categories.length > 0) {
-    headers['X-OpenRouter-Categories'] = categories.slice(0, 2).join(',');
-  }
+  headers['X-OpenRouter-Categories'] = (categories && categories.length > 0
+    ? categories.slice(0, 2)
+    : ['personal-agent', 'cloud-agent']
+  ).join(',');
 
   const response = await fetch(OPENROUTER_API_URL, {
     method: 'POST',

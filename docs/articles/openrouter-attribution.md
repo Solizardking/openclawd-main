@@ -22,8 +22,8 @@ Solana Clawd sends these headers to OpenRouter:
 
 | Header | Purpose | Example |
 | --- | --- | --- |
-| `HTTP-Referer` | Primary identifier (URL of your app) | `https://github.com/x402agent/solana-clawd` |
-| `X-OpenRouter-Title` | Display name in rankings | `ClawdRouter` or `Solana Clawd` |
+| `HTTP-Referer` | Primary identifier (URL of your app) | `https://solanaclawd.com` |
+| `X-OpenRouter-Title` | Display name in rankings | `solanaclawd` |
 | `X-OpenRouter-Categories` | Marketplace categories (max 2) | `cli-agent,cloud-agent` |
 | `X-Title` | Backwards-compatible alias | `ClawdRouter` |
 
@@ -38,9 +38,9 @@ requests with proper attribution headers:
 const headers: Record<string, string> = {
   Authorization: `Bearer ${apiKey}`,
   "Content-Type": "application/json",
-  "HTTP-Referer": siteUrl ?? "https://github.com/x402agent/solana-clawd",
-  "X-OpenRouter-Title": siteTitle ?? "ClawdRouter — Solana Agent LLM Router",
-  "X-Title": siteTitle ?? "ClawdRouter — Solana Agent LLM Router",
+  "HTTP-Referer": siteUrl ?? "https://solanaclawd.com",
+  "X-OpenRouter-Title": siteTitle ?? "solanaclawd",
+  "X-Title": siteTitle ?? "solanaclawd",
 };
 
 if (categories && categories.length > 0) {
@@ -75,12 +75,12 @@ const response = await fetch(OPENROUTER_API_URL, {
 OPENROUTER_API_KEY=sk-or-v1-...
 
 # App Attribution (ClawdRouter)
-CLAWDROUTER_OPENROUTER_SITE_URL=https://github.com/x402agent/solana-clawd
+CLAWDROUTER_OPENROUTER_SITE_URL=https://solanaclawd.com
 CLAWDROUTER_OPENROUTER_SITE_TITLE=ClawdRouter
 CLAWDROUTER_OPENROUTER_CATEGORIES=cli-agent,cloud-agent
 
 # Web App attribution (Next.js)
-OPENROUTER_SITE_URL=https://github.com/x402agent/solana-clawd
+OPENROUTER_SITE_URL=https://solanaclawd.com
 OPENROUTER_SITE_TITLE=Solana Clawd
 OPENROUTER_CATEGORIES=cli-agent,cloud-agent
 ```
@@ -141,7 +141,7 @@ OpenRouter requires a title header for localhost URLs to be tracked:
 "X-OpenRouter-Title": "My App Name",
 ```
 
-ClawdRouter defaults to `https://github.com/x402agent/solana-clawd` for production use.
+ClawdRouter defaults to `https://solanaclawd.com` for production use.
 
 ## Privacy Considerations
 
