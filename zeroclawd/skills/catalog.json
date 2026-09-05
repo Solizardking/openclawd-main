@@ -1,0 +1,304 @@
+[
+  {
+    "slug": "blockscout-analysis",
+    "name": "blockscout-analysis",
+    "description": "MANDATORY before Blockscout MCP tool calls or multichain wallet/tx/token analysis via MCP. Wires BLOCKSCOUT_API_KEY into the hosted Blockscout MCP server (https://mcp.blockscout.com/mcp) for Clawd Bot agents. Use for on-chain balances, txs, NFTs, contract ABI/source, RH chain 4663 explorer intel, and agent host setup (Cursor, Claude Code, Codex).",
+    "category": "Blockscout / Multichain",
+    "tags": [
+      "blockscout",
+      "mcp",
+      "web3",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "cheshire-agent-identity-registry",
+    "name": "cheshire-agent-identity-registry",
+    "description": "Register and operate Cheshire Robinhood agent identities (ERC-721 RHAGENT) via CheshireAgentIdentityRegistry on Robinhood Chain. Use for register(agentURI), agentWallet EIP-712/1271 proofs, metadata, isAuthorized, and ownerOf reads.",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent",
+      "erc-8004"
+    ]
+  },
+  {
+    "slug": "cheshire-agent-registries",
+    "name": "cheshire-agent-registries",
+    "description": "Overview of the ERC-8004 Cheshire agent registry suite on Robinhood Chain: identity (ERC-721 RHAGENT), reputation feedback, validation request/response, and optional zk-omni messenger. Use when registering agents, reading registry addresses, wiring forge/UI, or deploying operator tooling. Product host:",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent",
+      "erc-8004"
+    ]
+  },
+  {
+    "slug": "cheshire-agent-reputation-registry",
+    "name": "cheshire-agent-reputation-registry",
+    "description": "Post and query ERC-8004 reputation feedback for Cheshire agents on Robinhood Chain via CheshireAgentReputationRegistry. Use for giveFeedback, revokeFeedback, appendResponse, getSummary, and client lists. Requires identity registry",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent",
+      "erc-8004"
+    ]
+  },
+  {
+    "slug": "cheshire-agent-validation-registry",
+    "name": "cheshire-agent-validation-registry",
+    "description": "ERC-8004 validation request/response flow for Cheshire agents on Robinhood Chain via CheshireAgentValidationRegistry. Use for validationRequest, validationResponse, getValidationStatus, getSummary. Operators request;",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent",
+      "erc-8004"
+    ]
+  },
+  {
+    "slug": "cheshire-omni-mint",
+    "name": "cheshire-omni-mint",
+    "description": "Dual-rail omni agent mint: Solana Metaplex Core + Agent Identity and Robinhood Chain ERC-8004 identity in one plan, optionally bound with LayerZero zk-omni (msgType 4 dual_identity_link). Use when the user wants omnichain identity, Solana and Robinhood together, Metaplex mintAgent + RH register, or Cheshire",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent",
+      "zk",
+      "erc-8004"
+    ]
+  },
+  {
+    "slug": "cheshire-zk-omni",
+    "name": "cheshire-zk-omni",
+    "description": "Zero-knowledge omnichain messaging (msgType 4) between Robinhood Chain and Solana via CheshireZkOmniMessenger \u2014 LayerZero V2 peers, nullifier anti-replay, optional identity authorization. Use for sendZkOmni, quoteSend, nullifiers,",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent",
+      "zk"
+    ]
+  },
+  {
+    "slug": "copy-trade",
+    "name": "copy-trade",
+    "description": "This skill should be used when the user asks to \"copy trades from\" a wallet, \"mirror a wallet\", \"follow this address\", set up \"copy trading\", \"track and replicate a trader\", or mirror another account's swaps bounded by guardrails. Watches a target wallet and mirrors its trades, filtered by chain, asset match, position size, and the follower's own portfolio state.",
+    "category": "Strategy / Bots",
+    "tags": [
+      "robinhood",
+      "evm",
+      "strategy",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "dca-bot",
+    "name": "dca-bot",
+    "description": "This skill should be used when the user wants to \"dca into\" a token, \"buy X every day\", set up a \"recurring buy\", \"dollar cost average\" into an asset, \"schedule a buy\", or \"auto-buy on a dip\". Buys a fixed amount into a token on a schedule, optionally only when a condition holds (for example only when ETH is below a price threshold). The host agent's scheduler wakes the skill on a cadence; each wake is one self-contained run.",
+    "category": "Strategy / Bots",
+    "tags": [
+      "robinhood",
+      "evm",
+      "strategy",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "deployer",
+    "name": "deployer",
+    "description": "Deploy CCA (Continuous Clearing Auction) smart contracts using the Factory pattern. Use when user says \"deploy auction\", \"deploy cca\", \"factory deployment\", or wants to deploy a configured auction.",
+    "category": "Strategy / Bots",
+    "tags": [
+      "robinhood",
+      "evm",
+      "strategy",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "index-bot",
+    "name": "index-bot",
+    "description": "This skill should be used when the user asks to \"create an index\", \"build a basket of top assets\", \"buy a weighted basket\", \"make a portfolio of assets\", \"equal-weight basket\", \"rebalance my portfolio\", \"track the top N tokens\", or wants an automated, weighted multi-asset basket that buys in one pass and rebalances on a cadence. Builds the basket spec, delegates each buy and rebalance swap to the swap-integration Trading API flow, and records target weights in state.",
+    "category": "Strategy / Bots",
+    "tags": [
+      "robinhood",
+      "evm",
+      "strategy",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "liquidity-planner",
+    "name": "liquidity-planner",
+    "description": "This skill should be used when the user asks to \"provide liquidity\", \"create LP position\", \"add liquidity to pool\", \"become a liquidity provider\", \"create v3 position\", \"create v4 position\", \"concentrated liquidity\", \"set price range\", or mentions providing liquidity, LP positions, or liquidity pools on Uniswap. Generates deep links to create positions in the Uniswap interface.",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "lp-integration",
+    "name": "lp-integration",
+    "description": "Integrate Uniswap liquidity provisioning (LP) into applications via the LP REST API. Use when the user says \"LP API\", \"liquidity provisioning API\", \"provide liquidity programmatically\", \"create LP position via API\", \"add liquidity via API\", \"increase liquidity\", \"decrease liquidity\", \"remove liquidity\", \"claim LP fees\", \"collect LP fees\", \"manage LP positions in code\", or mentions building a backend, bot, or frontend that creates or manages Uniswap v2/v3/v4 liquidity positions through an API. Al",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "pay-with-any-token",
+    "name": "pay-with-any-token",
+    "description": "Pay HTTP 402 payment challenges using tokens via the Tempo CLI and Uniswap Trading API. Use when the user encounters a 402 Payment Required response, needs to fulfill a machine payment, mentions \"MPP\", \"Tempo payment\", \"pay for API access\", \"HTTP 402\", \"x402\", \"machine payment protocol\", \"pay-with-any-token\", \"use tempo\", \"tempo request\", or \"tempo wallet\".",
+    "category": "Payments / x402",
+    "tags": [
+      "payments",
+      "x402",
+      "evm",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "pay-with-app",
+    "name": "pay-with-app",
+    "description": "Pay HTTP 402 payment challenges issued by OKX's Agent Payments Protocol (APP) on X Layer using tokens from any chain via the Uniswap Trading API. Use this skill whenever the user encounters a 402 challenge whose network resolves to X Layer (chain 196), mentions \"APP\", \"Agent Payments Protocol\", \"OKX agent payment\", \"OKX Onchain OS\", \"OKX agentic wallet\", \"x402 on X Layer\", \"USDT0\", \"x42\", \"Instant Payment\", \"Batch Payment\", \"pay for X Layer API\", or wants to pay an OKX-backed merchant. Even when",
+    "category": "Payments / x402",
+    "tags": [
+      "payments",
+      "x402",
+      "evm",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "rh-bonded-launch",
+    "name": "rh-bonded-launch",
+    "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via the live BondingCurveLaunchpad, or guide a user/agent to do so on FunPump /launch or Cheshire /rh-launch. Use when the user says \"launch a token\", \"create token on Robinhood\", \"bonded launch\", \"createToken\", \"fair launch on RH\", \"pump style on robinhood\", \"open a curve\", or brings an agent to funpump.ai to launch. Does NOT mint wCLAWD",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "rh-launchpad-v3",
+    "name": "rh-launchpad-v3",
+    "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via BondingCurveLaunchpadV3 \u2014 graduates into a Uniswap V3 pool (not V2). Use for bots, agents, Telegram, \"launch with V3 pool\", createToken on LaunchpadV3, curve-v3 rail, or FunPump https://funpump.ai/api/launchpad/v3. Distinct from legacy V2",
+    "category": "Robinhood / FunPump",
+    "tags": [
+      "robinhood",
+      "funpump",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "swap-integration",
+    "name": "swap-integration",
+    "description": "Integrate Uniswap swaps into applications. Use when user says \"integrate swaps\", \"uniswap\", \"trading api\", \"add swap functionality\", \"build a swap frontend\", \"create a swap script\", \"smart contract swap integration\", \"use Universal Router\", \"Trading API\", or mentions swapping tokens via Uniswap.",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "swap-planner",
+    "name": "swap-planner",
+    "description": "This skill should be used when the user asks to \"swap tokens\", \"trade ETH for USDC\", \"exchange tokens on Uniswap\", \"buy tokens\", \"sell tokens\", \"convert ETH to stablecoins\", \"find memecoins\", \"discover tokens\", \"research tokens\", \"tokens to buy\", \"find tokens to swap\", \"what should I buy\", or mentions swapping, trading, researching, discovering, buying, or exchanging tokens on any Uniswap-supported chain. Supports both known token swaps and token discovery workflows (discovery uses keyword searc",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "v4-hook-generator",
+    "name": "v4-hook-generator",
+    "description": "Generate Uniswap v4 hook contracts via OpenZeppelin MCP. Use when building custom swap logic, async swaps, hook-owned liquidity, custom curves, dynamic fees, MEV protection, limit orders, or oracle hooks.",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "v4-sdk-integration",
+    "name": "v4-sdk-integration",
+    "description": "App-layer SDK guide for building swap and liquidity experiences directly with the Uniswap v4 SDK. Use when user asks about \"v4 sdk\", \"uniswap v4\", \"v4 swap\", \"v4 liquidity\", \"PoolManager\", \"V4Planner\", \"StateView\", \"PositionManager\", \"pool state\", \"v4 position\", \"uniswap sdk\", or when building swap/liquidity UX directly with SDKs rather than via the Trading API.",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "v4-security-foundations",
+    "name": "v4-security-foundations",
+    "description": "Security-first Uniswap v4 hook development. Use when user mentions \"v4 hooks\", \"hook security\", \"PoolManager\", \"beforeSwap\", \"afterSwap\", or asks about V4 hook best practices, vulnerabilities, or audit requirements.",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "viem-integration",
+    "name": "viem-integration",
+    "description": "Integrate EVM blockchains using viem. Use when user says \"read blockchain data\", \"send transaction\", \"interact with smart contract\", \"connect to Ethereum\", \"use viem\", \"use wagmi\", \"wallet integration\", \"viem setup\", or mentions blockchain/EVM development with TypeScript.",
+    "category": "Uniswap / EVM",
+    "tags": [
+      "uniswap",
+      "evm",
+      "open-source",
+      "crypto-agent"
+    ]
+  },
+  {
+    "slug": "web3-dev",
+    "name": "web3-dev",
+    "description": "Build web3 applications, scripts, CLIs, bots, mobile apps, and desktop apps that need blockchain data via the Blockscout PRO API \u2014 a single HTTP API spanning 100+ EVM chains. Invoke this skill whenever the user wants to read blockchain data over HTTP (transactions, blocks, addresses, tokens, NFTs, logs, contract context, internal txs, account abstraction, etc.) and is building software that calls an API directly. Trigger on direct mentions of `Blockscout PRO API`, `pro-api`, `proapi_`, `Blocksco",
+    "category": "Blockscout / Multichain",
+    "tags": [
+      "blockscout",
+      "web3",
+      "open-source"
+    ]
+  }
+]

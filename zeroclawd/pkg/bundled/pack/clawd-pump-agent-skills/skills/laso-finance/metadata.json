@@ -1,0 +1,7 @@
+{
+  "name": "Laso Finance Wallet Cards",
+  "description": "Order and manage Laso prepaid cards, gift cards, and push-to-card payouts with a ClawPump agent wallet",
+  "author": "clawpump",
+  "tags": ["laso", "x402", "wallet", "cards", "payments"],
+  "version": "1.0.0"
+}

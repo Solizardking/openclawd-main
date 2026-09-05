@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "skillhub-relay-state/v1",
+  "updatedAt": "2026-08-05T02:15:27.574Z",
+  "reason": "one-shot",
+  "totalSkills": 558,
+  "nvidiaSkills": 229,
+  "merkleRoot": "sha256-756d590156eb3a22f17dabe8d99cc21cd8b9d40ba5c9965996c66b477b3ff3f6",
+  "catalogHash": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103",
+  "durationMs": 4918
+}

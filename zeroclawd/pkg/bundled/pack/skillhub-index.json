@@ -1,0 +1,23 @@
+{
+  "$schema": "https://cheshireterminal.ai/schemas/skillhub-index.v1.json",
+  "id": "cheshire-skillhub-index",
+  "version": "1",
+  "description": "Canonical Skill Hub \u2014 Solizardking/skillhub. Full catalog and install surface.",
+  "canonical": true,
+  "urls": {
+    "github": "https://github.com/Solizardking/skillhub",
+    "skillsRepo": "https://github.com/Solizardking/skillhub",
+    "catalogUrl": "https://raw.githubusercontent.com/Solizardking/skillhub/main/catalog.json",
+    "apiSkillsUrl": "https://raw.githubusercontent.com/Solizardking/skillhub/main/public/api/skills.json",
+    "rawSkillBase": "https://raw.githubusercontent.com/Solizardking/skillhub/main/skills",
+    "installCommand": "npx --yes github:Solizardking/skillhub install",
+    "installAlt": "npx skills add Solizardking/skillhub",
+    "site": "https://skills.onchainai.fund"
+  },
+  "aliases": {
+    "legacy": [
+      "https://github.com/Solizardking/skills",
+      "https://github.com/Solizardking/skills-main"
+    ]
+  }
+}

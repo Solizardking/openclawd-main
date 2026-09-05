@@ -1,0 +1,7 @@
+{
+  "name": "DCA Strategy",
+  "description": "Plan and manage Dollar-Cost Averaging strategies for Solana tokens",
+  "author": "clawpump",
+  "tags": ["trading", "defi", "portfolio"],
+  "version": "1.0.0"
+}

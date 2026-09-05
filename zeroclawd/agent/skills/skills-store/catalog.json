@@ -1,0 +1,193 @@
+{
+  "store": "cheshire-skills-store",
+  "spec": "https://agentskills.io",
+  "docsIndex": "https://agentskills.io/llms.txt",
+  "version": "1.3.0",
+  "homepage": "https://cheshireterminal.ai/skills-store",
+  "api": {
+    "index": "/api/skills-store",
+    "skill": "/api/skills-store/:name",
+    "skillMd": "/api/skills-store/:name/SKILL.md"
+  },
+  "install": {
+    "store": "npx skills add Solizardking/cheshire-terminal --path skills-store",
+    "local": "npx skills add ./skills-store"
+  },
+  "collections": [
+    {
+      "name": "community",
+      "path": "../skills",
+      "catalogPath": "imported-skills.json",
+      "description": "Complete repository-local skill collection exposed by the skills-store API and the /skills product surface."
+    }
+  ],
+  "skills": [
+    {
+      "name": "solana-common-errors",
+      "description": "Diagnose and fix common Solana build errors: GLIBC, Anchor versions, platform-tools, LiteSVM, edition2024 pins.",
+      "path": "solana-common-errors",
+      "version": "1.0.0",
+      "priority": "critical",
+      "tags": [
+        "solana",
+        "anchor",
+        "errors",
+        "glibc",
+        "build-sbf"
+      ],
+      "homepage": "https://skills.x402.wtf/api/skills/solana-common-errors/SKILL.md",
+      "install": {
+        "local": "npx skills add ./skills-store/solana-common-errors",
+        "github": "npx skills add Solizardking/cheshire-terminal --path skills-store/solana-common-errors"
+      },
+      "references": [
+        "references/common-errors.md"
+      ]
+    },
+    {
+      "name": "skillhub-onchain",
+      "description": "Publish skills on-chain via skills.x402.wtf: upload, scan, Solana fee, Arweave/memo anchor, public ledger.",
+      "path": "skillhub-onchain",
+      "version": "1.0.0",
+      "priority": "high",
+      "tags": [
+        "solana",
+        "skillhub",
+        "x402",
+        "onchain",
+        "publish"
+      ],
+      "homepage": "https://skills.x402.wtf/publish",
+      "install": {
+        "local": "npx skills add ./skills-store/skillhub-onchain",
+        "github": "npx skills add Solizardking/cheshire-terminal --path skills-store/skillhub-onchain"
+      }
+    },
+    {
+      "name": "cheshire-api",
+      "description": "Cheshire Terminal REST, MCP, Apigee, and discovery endpoints for Solana agents, arena rooms, and boxes.",
+      "path": "cheshire-api",
+      "version": "1.2.0",
+      "tags": [
+        "api",
+        "mcp",
+        "solana",
+        "cheshire",
+        "arena",
+        "boxes"
+      ],
+      "homepage": "https://cheshireterminal.ai/api-docs",
+      "install": {
+        "local": "npx skills add ./skills-store/cheshire-api",
+        "github": "npx skills add Solizardking/cheshire-terminal --path skills-store/cheshire-api"
+      },
+      "scripts": [
+        "scripts/smoke-discovery.sh"
+      ],
+      "references": [
+        "references/endpoints.md",
+        "references/mcp-tools.md"
+      ]
+    },
+    {
+      "name": "posthog-cheshire",
+      "description": "PostHog analytics and session replay for Cheshire Terminal (US project 473072), cookieless privacy, and product events.",
+      "path": "posthog-cheshire",
+      "version": "1.1.0",
+      "tags": [
+        "posthog",
+        "analytics",
+        "replay",
+        "privacy"
+      ],
+      "homepage": "https://us.posthog.com/project/473072",
+      "install": {
+        "local": "npx skills add ./skills-store/posthog-cheshire",
+        "github": "npx skills add Solizardking/cheshire-terminal --path skills-store/posthog-cheshire"
+      },
+      "scripts": [
+        "scripts/check-posthog-env.sh"
+      ],
+      "references": [
+        "references/events.md",
+        "references/privacy.md"
+      ]
+    },
+    {
+      "name": "google-agent-registry",
+      "description": "Google Agent Registry specs, 10KB limits, MCP tool parity, and Apigee reverse proxies for x402-477302.",
+      "path": "google-agent-registry",
+      "version": "1.1.0",
+      "tags": [
+        "google",
+        "apigee",
+        "a2a",
+        "mcp",
+        "registry"
+      ],
+      "homepage": "https://cheshireterminal.ai/api-docs",
+      "install": {
+        "local": "npx skills add ./skills-store/google-agent-registry",
+        "github": "npx skills add Solizardking/cheshire-terminal --path skills-store/google-agent-registry"
+      },
+      "scripts": [
+        "scripts/check-registry.sh"
+      ],
+      "references": [
+        "references/registry-files.md",
+        "references/apigee.md"
+      ]
+    },
+    {
+      "name": "stripe",
+      "description": "Install stripe@claude-plugins-official, connect Stripe MCP (mcp.stripe.com), and use Checkout Sessions / PaymentIntents / Billing — not Charges. Covers /test-cards and /explain-error.",
+      "path": "stripe",
+      "version": "1.0.0",
+      "priority": "high",
+      "tags": [
+        "stripe",
+        "payments",
+        "checkout",
+        "mcp",
+        "claude-plugin",
+        "billing"
+      ],
+      "homepage": "https://docs.stripe.com",
+      "plugin": "stripe@claude-plugins-official",
+      "pluginInstall": "/plugin install stripe@claude-plugins-official",
+      "mcp": "https://mcp.stripe.com",
+      "install": {
+        "local": "npx skills add ./skills-store/stripe",
+        "github": "npx skills add Solizardking/cheshire-terminal --path skills-store/stripe",
+        "claudePlugin": "/plugin install stripe@claude-plugins-official"
+      },
+      "scripts": [
+        "scripts/check-stripe-skill.sh"
+      ],
+      "references": [
+        "references/payments.md",
+        "references/plugin-commands.md"
+      ]
+    },
+    {
+      "name": "cheshire-noxa",
+      "description": "One-shot NOXA Fun/DEX collab client for Cheshire Terminal — status, DEX registry, Quoter-aware helpers, and package registration into skills-store.",
+      "path": "cheshire-noxa",
+      "version": "0.1.0",
+      "tags": [
+        "noxa",
+        "uniswap-v3",
+        "dex",
+        "evm",
+        "cheshire"
+      ],
+      "homepage": "https://cheshireterminal.ai/noxa",
+      "install": {
+        "npm": "npm install @x402solana/cheshire-noxa",
+        "register": "npx cheshire-noxa register",
+        "local": "npx skills add ./skills-store/cheshire-noxa"
+      },
+      "package": "@x402solana/cheshire-noxa"
+    }
+  ]
+}

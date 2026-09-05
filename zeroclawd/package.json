@@ -1,0 +1,91 @@
+{
+  "name": "clawdbot-go",
+  "version": "1.0.6",
+  "description": "Clawd Bot — one-shot install for sovereign Solana + Robinhood omni agent runtime: RH skill pack, Skill Hub (train2earn + skillhub-main), agents, packages, clawdbot CLI hooks. Connect at cheshireterminal.ai/zeroclawd",
+  "type": "module",
+  "license": "MIT",
+  "author": "Clawd Bot / Cheshire Terminal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solizardking/Zero-Bruh.git"
+  },
+  "homepage": "https://cheshireterminal.ai/zeroclawd",
+  "bugs": {
+    "url": "https://github.com/Solizardking/Zero-Bruh/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "clawd",
+    "clawdbot",
+    "clawd-bot",
+    "zero-clawd",
+    "solana",
+    "robinhood",
+    "funpump",
+    "agent-skills",
+    "erc-8004",
+    "cheshire",
+    "cheshire-terminal-agents",
+    "skillhub",
+    "omnichain",
+    "one-shot"
+  ],
+  "engines": {
+    "node": ">=18.18"
+  },
+  "bin": {
+    "clawd": "bin/clawdbot-go.js",
+    "clawdbot": "bin/clawdbot-go.js",
+    "clawd-bot": "bin/clawdbot-go.js",
+    "clawdbot-go": "bin/clawdbot-go.js",
+    "zero-clawd": "bin/clawdbot-go.js",
+    "clawdbot-stack": "bin/clawdbot-go.js"
+  },
+  "exports": {
+    ".": "./scripts/oneshot-install.mjs",
+    "./oneshot": "./scripts/oneshot-install.mjs",
+    "./skillPack": "./scripts/skill-pack.mjs",
+    "./package.json": "./package.json",
+    "./skills/pack-index.json": "./skills/pack-index.json",
+    "./skills/catalog.json": "./skills/catalog.json"
+  },
+  "files": [
+    "bin",
+    "bin/clawdbot-go.js",
+    "bin/clawdbot-go.mjs",
+    "scripts/oneshot-install.mjs",
+    "scripts/skill-pack.mjs",
+    "scripts/postinstall.mjs",
+    "scripts/pump-tape.mjs",
+    "install-npm.sh",
+    "install.sh",
+    "skills",
+    "automaton-main/package.json",
+    "automaton-main/README.md",
+    "automaton-main/src",
+    "automaton-main/scripts",
+    "automaton-main/constitution.md",
+    "automaton-main/LICENSE",
+    "docs/RH_CRYPTO_AGENT_STACK.md",
+    "README.md",
+    "LICENSE",
+    "AGENTS.md"
+  ],
+  "scripts": {
+    "oneshot": "node scripts/oneshot-install.mjs",
+    "install:stack": "node scripts/oneshot-install.mjs",
+    "postinstall": "node scripts/postinstall.mjs",
+    "skills:list": "node -e \"import('./scripts/skill-pack.mjs').then(m=>console.log(m.listSkillIds().join('\\n')))\"",
+    "skills:inspect": "node -e \"import('./scripts/skill-pack.mjs').then(m=>console.log(JSON.stringify(m.inspectPack(),null,2)))\"",
+    "test:oneshot": "node --test scripts/oneshot-install.test.mjs scripts/pump-tape.test.mjs",
+    "test:branding": "node --test scripts/branding-check.mjs",
+    "test:docs": "node --test scripts/docs-check.mjs",
+    "check": "node --check bin/clawdbot-go.mjs && node --check scripts/oneshot-install.mjs && node --check scripts/skill-pack.mjs && node --check scripts/postinstall.mjs && node --check scripts/pump-tape.mjs && npm run test:oneshot && npm run test:branding && npm run test:docs"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "cheshire-terminal-agents": "^1.48.4"
+  }
+}
