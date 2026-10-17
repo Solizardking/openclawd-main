@@ -43,7 +43,7 @@
     "prepublishOnly": "npm run build && npm test"
   },
   "dependencies": {
-    "openclaw": "2026.3.11"
+    "openclaw": "2026.6.9"
   },
   "files": [
     "bin/",
